@@ -26,11 +26,17 @@ def parse_args():
 	parser.add_argument('-search', '--Search', help='Give this command a file with the search term in NCBI (right side of the page in "Search Details, when you query an entry")')
 	parser.add_argument('-taxonomy', '--Tax', help = 'Give this command the highest recent common taxonomy classification within search (optional)')
 	parser.add_argument('-genetic_code', '--GeneCode', help = 'Give this command the genetic code of the input sequences. Defaults to 11')
+	parser.add_argument('-download', "--DownloadDir", help = '(Optional) Give this command a directory name where the complete mitogenomes will be saved as well as each gene fasta')
+	parser.add_argument('-clean', "--Clean", help = '(Optional) Give this command the argument to remove sequences which have at least one gene with gaps')
+	parser.add_argument('-remove_accessions', "--Accessions",
+						help='Give this command a file with accession numbers marked with hashtag beforehand (anywhere)')
 	args = parser.parse_args()
 	return args
 
 def main(args):
 	"""Uses the NCBI search utilities to retrieve sequences and genes inside"""
+	if args.DownloadDir:
+		os.mkdir(args.DownloadDir)
 	unverified, no_features, no_genes = [], [], []
 	print('\nSearching in NCBI... Hold tight!\n')
 	handle = Entrez.esearch(db='nucleotide', retmax=100000, term= args.Search, idtype="acc")
@@ -43,90 +49,186 @@ def main(args):
 	for rec in record['IdList']:
 		i += 1
 		print(' ' + str(i)+'/'+str(len(record['IdList'])), end='\r')
-		unverified, no_features, no_genes, full_gene_dict = extract_features(rec, unverified, no_features, no_genes, full_gene_dict)
+		unverified, no_features, no_genes, full_gene_dict = extract_features(rec, unverified, no_features, no_genes, full_gene_dict, args)
 	calculate_cai(full_gene_dict, args.GeneCode)
 	calculate_dnds(full_gene_dict)
 	write_log(unverified = unverified, no_features = no_features, missing_gene = no_genes)
 
-def extract_features(record, unverified, no_features, no_genes, full_gene_dict):
+def extract_features(record, unverified, no_features, no_genes, full_gene_dict, args):
+	clean = False
+	if args.Accessions:
+		records = filter_accessions(args.Accessions)
+	else: records = []
 	mitogenome = Entrez.efetch(db = "nucleotide", id = record, rettype = 'fasta', retmode = 'text')
 	mitogenome_sequence = mitogenome.read()
 	mitogenome_characteristics = mitogenome_calculations(mitogenome_sequence)
+	#if args.DownloadDir:
+	#	file = open(os.path.join(args.DownloadDir, gene) + ".fn", 'a+')
+	#	file.write(">%s\n%s\n" % (name, mitogenome_sequence))
+	#	file.close()
 	gene_dict = {}
 	state = ''
 	with Entrez.efetch(db="nucleotide", rettype="gb", retmode="text", id=record) as handle:
 		for rec in SeqIO.parse(handle,'gb'):
-			taxonomy_names = ';'.join(rec.annotations['taxonomy'])
-			if 'UNVERIFIED' in rec.description:
-				unverified.append(rec.description)
-				state = 'unverified'
-			elif 'partial' in rec.description:
-				state = 'partial'
-			else:
-				state = 'complete'
-			if rec.features:
-				for feature in rec.features:
-					if feature.type == 'CDS':
-						if 'gene' in feature.qualifiers.keys():
+			if rec.id not in records:
+				taxonomy_names = ';'.join(rec.annotations['taxonomy'])
+				if 'UNVERIFIED' in rec.description:
+					unverified.append(rec.description)
+					state = 'unverified'
+				elif 'partial' in rec.description:
+					state = 'partial'
+				else:
+					state = 'complete'
+				if rec.features:
+					for feature in rec.features:
+						if feature.type == 'CDS':
+							if 'gene' in feature.qualifiers.keys():
+								gene_sequence = feature.location.extract(rec).seq
+								if args.Clean:
+									clean = filter_sequences(gene_sequence, rec.annotations['organism'], full_gene_dict, feature.qualifiers['gene'][0].strip(''))
+									if clean:
+										gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary = gene_dict,
+											gene_name = feature.qualifiers['gene'][0].strip(''),
+											sequence = gene_sequence, pcg = 1, args = args, accession = rec.id)
+										full_gene_dict[(rec.annotations['organism'],rec.id,taxonomy_names.split(args.Tax + ';')[1],state, gene)] = full_gene
+								else:
+									gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary=gene_dict,
+																							  gene_name=
+																							  feature.qualifiers['gene'][
+																								  0].strip(''),
+																							  sequence=gene_sequence, pcg=1,
+																							  args=args, accession=rec.id)
+									full_gene_dict[(
+									rec.annotations['organism'], rec.id, taxonomy_names.split(args.Tax + ';')[1], state,
+									gene)] = full_gene
+							else:
+								gene_sequence = feature.location.extract(rec).seq
+								if args.Clean:
+									clean = filter_sequences(gene_sequence, rec.annotations['organism'], full_gene_dict, feature.qualifiers['product'][0].strip(''))
+									if clean:
+										gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary = gene_dict,
+											gene_name = feature.qualifiers['product'][0].strip(''),
+											sequence = gene_sequence, pcg = 1, args = args, accession = rec.id)
+										full_gene_dict[(rec.annotations['organism'],rec.id,taxonomy_names.split(args.Tax + ';')[1],state, gene)] = full_gene
+									else:
+										gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary=gene_dict,
+																								  gene_name=
+																								  feature.qualifiers[
+																									  'product'][0].strip(
+																									  ''),
+																								  sequence=gene_sequence,
+																								  pcg=1, args=args,
+																								  accession=rec.id)
+										full_gene_dict[(
+										rec.annotations['organism'], rec.id, taxonomy_names.split(args.Tax + ';')[1], state,
+										gene)] = full_gene
+
+						elif feature.type == 'tRNA':
 							gene_sequence = feature.location.extract(rec).seq
-							gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary = gene_dict,
-								gene_name = feature.qualifiers['gene'][0].strip(''),
-								sequence = gene_sequence, pcg = 1)
-							full_gene_dict[(rec.annotations['organism'],rec.id,taxonomy_names.split(args.Tax + ';')[1],state, gene)] = full_gene
-						else:
+							if args.Clean:
+								if 'product' in feature.qualifiers.keys():
+									clean = filter_sequences(gene_sequence, rec.annotations['organism'], full_gene_dict, feature.qualifiers['product'][0].strip(''))
+									if clean:
+										gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary = gene_dict,
+											gene_name = feature.qualifiers['product'][0].strip(''),
+											sequence = gene_sequence, args = args, accession = rec.id)
+							else:
+								if 'product' in feature.qualifiers.keys():
+									gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary=gene_dict,
+																						  gene_name=
+																						  feature.qualifiers['product'][
+																							  0].strip(''),
+																						  sequence=gene_sequence, args=args,
+																						  accession=rec.id)
+
+								#full_gene_dict[(rec.annotations['organism'],rec.id,taxonomy_names.split(args.Tax + ';')[1],state, gene)] = full_gene
+							#else:
+							#	gene_characteristics = gene_calculations(gene_dictionary = gene_dict,
+							#		gene_name = feature.qualifiers['gene'][0].strip(''),
+							#		sequence = gene_sequence)
+						elif feature.type == 'rRNA':
 							gene_sequence = feature.location.extract(rec).seq
-							gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary = gene_dict,
-								gene_name = feature.qualifiers['product'][0].strip(''),
-								sequence = gene_sequence, pcg = 1)
-							full_gene_dict[(rec.annotations['organism'],rec.id,taxonomy_names.split(args.Tax + ';')[1],state, gene)] = full_gene
-					elif feature.type == 'tRNA':
-						gene_sequence = feature.location.extract(rec).seq
-						if 'product' in feature.qualifiers.keys():
-							gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary = gene_dict,
-								gene_name = feature.qualifiers['product'][0].strip(''),
-								sequence = gene_sequence)
-							#full_gene_dict[(rec.annotations['organism'],rec.id,taxonomy_names.split(args.Tax + ';')[1],state, gene)] = full_gene
-						#else:
-						#	gene_characteristics = gene_calculations(gene_dictionary = gene_dict,
-						#		gene_name = feature.qualifiers['gene'][0].strip(''),
-						#		sequence = gene_sequence)
-					elif feature.type == 'rRNA':
-						gene_sequence = feature.location.extract(rec).seq
-						if 'product' in feature.qualifiers.keys():
-							gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary = gene_dict,
-								gene_name = feature.qualifiers['product'][0].strip(''),
-								sequence = gene_sequence)
-							#full_gene_dict[(rec.annotations['organism'],rec.id,taxonomy_names.split(args.Tax + ';')[1],state, gene)] = full_gene
-						#else:
-						#	gene_characteristics = gene_calculations(gene_dictionary = gene_dict,
-						#		gene_name = feature.qualifiers['gene'][0].strip(''),
-						#		sequence = gene_sequence)
-					elif feature.type == 'source':
-						gene_characteristics = []
-			else: 
-				no_features.append(rec.description)
-				gene_characteristics = []
-			assembly_method = ''
-			sequencing_technology = ''
-			if 'structured_comment' in rec.annotations:
-				if 'Assembly-Data' in rec.annotations['structured_comment'].keys():
-					if 'Assembly Method' in rec.annotations['structured_comment']['Assembly-Data'].keys():
-						assembly_method = rec.annotations['structured_comment']['Assembly-Data']['Assembly Method']
-					if 'Sequencing Technology' in rec.annotations['structured_comment']['Assembly-Data'].keys():
-						sequencing_technology = rec.annotations['structured_comment']['Assembly-Data']['Sequencing Technology']
-			if args.Tax:
-				taxonomy_names = taxonomy_names.split(args.Tax + ';')[1]
-			if gene_characteristics != []:
-				gene_check(gene_characteristics,no_genes,rec.annotations['organism'],taxonomy_names)
-			write_output(name = rec.annotations['organism'],
-				acc_number = rec.id,
-				family = taxonomy_names,
-				mito_char = mitogenome_characteristics,
-				gene_char = gene_characteristics,
-				state = state,
-				assembly = assembly_method,
-				sequencing = sequencing_technology)
+							if args.Clean:
+								clean = filter_sequences(gene_sequence, rec.annotations['organism'], full_gene_dict, feature.qualifiers['product'][0].strip(''))
+								if clean:
+									if 'product' in feature.qualifiers.keys():
+										gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary = gene_dict,
+											gene_name = feature.qualifiers['product'][0].strip(''),
+											sequence = gene_sequence, args = args, accession = rec.id)
+							else:
+								if 'product' in feature.qualifiers.keys():
+									gene_characteristics, full_gene, gene = gene_calculations(gene_dictionary=gene_dict,
+																							  gene_name=
+																							  feature.qualifiers['product'][
+																								  0].strip(''),
+																							  sequence=gene_sequence,
+																							  args=args, accession=rec.id)
+								#full_gene_dict[(rec.annotations['organism'],rec.id,taxonomy_names.split(args.Tax + ';')[1],state, gene)] = full_gene
+							#else:
+							#	gene_characteristics = gene_calculations(gene_dictionary = gene_dict,
+							#		gene_name = feature.qualifiers['gene'][0].strip(''),
+							#		sequence = gene_sequence)
+						elif feature.type == 'source':
+							gene_characteristics = []
+				else:
+					no_features.append(rec.description)
+					gene_characteristics = []
+				assembly_method = ''
+				sequencing_technology = ''
+				if 'structured_comment' in rec.annotations:
+					if 'Assembly-Data' in rec.annotations['structured_comment'].keys():
+						if 'Assembly Method' in rec.annotations['structured_comment']['Assembly-Data'].keys():
+							assembly_method = rec.annotations['structured_comment']['Assembly-Data']['Assembly Method']
+						if 'Sequencing Technology' in rec.annotations['structured_comment']['Assembly-Data'].keys():
+							sequencing_technology = rec.annotations['structured_comment']['Assembly-Data']['Sequencing Technology']
+				if args.Tax:
+					taxonomy_names = taxonomy_names.split(args.Tax + ';')[1]
+				if gene_characteristics != []:
+					gene_check(gene_characteristics,no_genes,rec.annotations['organism'],taxonomy_names)
+				if args.Clean:
+					if clean:
+						write_output(name=rec.annotations['organism'],
+									 acc_number=rec.id,
+									 family=taxonomy_names,
+									 mito_char=mitogenome_characteristics,
+									 gene_char=gene_characteristics,
+									 state=state,
+									 assembly=assembly_method,
+									 sequencing=sequencing_technology)
+				else: write_output(name = rec.annotations['organism'],
+					acc_number = rec.id,
+					family = taxonomy_names,
+					mito_char = mitogenome_characteristics,
+					gene_char = gene_characteristics,
+					state = state,
+					assembly = assembly_method,
+					sequencing = sequencing_technology)
 	return unverified, no_features, no_genes, full_gene_dict
+
+def filter_accessions(accessions):
+	records = []
+	with open(accessions) as f:
+		lines = f.readlines()
+		f.close()
+	for line in lines:
+		if '#' in line:
+			records.append(line.strip('\n')[1:])
+	return records
+
+def filter_sequences(seq, name, group, gene):
+	clean = True
+	#print('\nThis is the sequence: ', seq)
+	#print('\nThis is the name: ', name)
+	#print('\nThis is the group: ',group)
+	#print('\nThis is the gene: ', gene)
+	for key in group:
+		if (key[0] == name and key[4] == gene) or seq.count('N') > 7:
+			print('\n{} is no good, removing it from the dataset' .format(key[1]))
+			clean = False
+	#if (name in group.keys(0) and gene in group.keys(0)) or seq.count('N') > 7:
+	#	print('\n\n\n\n\n\nWE DID IT BOYS\n\n\n\n\n\n\n\n')
+	#	clean = False
+	return clean
 
 def mitogenome_calculations(sequence):
 	'''1- Genome Size; 2- Genome GC content; 3-G; 4-C; 5-A; 6-T; 7- GC skew; 8- AT skew'''
@@ -153,8 +255,8 @@ def mitogenome_calculations(sequence):
 	mitogenome_characteristics.append(at_sk)
 	return mitogenome_characteristics
 
-def gene_calculations(gene_dictionary = {}, gene_name = '', sequence = '', pcg = 0):
-	gene_name = gene_correction(gene_name)
+def gene_calculations(gene_dictionary = {}, gene_name = '', sequence = '', pcg = 0, args = "", accession = ""):
+	gene_name = gene_correction(accession, sequence, gene_name, args)
 	full_gene = ''
 	n_g = str(sequence).upper().count('G')
 	n_c = str(sequence).upper().count('C')
@@ -190,7 +292,7 @@ def gene_calculations(gene_dictionary = {}, gene_name = '', sequence = '', pcg =
 		gene_dictionary[gene_name] = [len(sequence), GC(sequence), str(p_g), str(p_c), str(p_a), str(p_t), str(gc_sk), str(at_sk), '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 	return gene_dictionary, full_gene, gene_name
 
-def gene_correction(gene):
+def gene_correction(name, sequence, gene, args):
 	ATP6_list = ['atp6','ATP6','Atp6','Atp 6','ATP 6','ATPase 6','MTATP6','MTATP 6','atp6','ATPase 6','ATPase6','ATPase subunit 6','ATP synthase F0 subunit 6','ATP-6','atp-6','ATPase-6','atpase6','atpase 6','atpase-6','atp vi','ATP-vi','atp-vi','atpvi','atpasevi','atpase vi','Atpase VI','Atpase vi','ATP VI']
 	ATP8_list = ['atp8','Atp8','Atp 8','ATPase 8','ATP 8','MTATP8','atp8','MTATP 8','ATP8','ATPase 8','ATPase8','ATP synthase F0 subunit 8','ATPase subunit 8','ATP-8','atp-8','ATPase-8','atpase8','atpase 8','atpase-8','atp viii','ATP-viii','atp-viii','atpviii','atpaseviii','atpase viii','Atpase VIII','Atpase viii','ATP VIII']
 	COI_list = ['cox1','COI','CO I','cox1','COX1','COXI','COX I','COX-I','CO1','cytochrome oxidase subunit I','cytochrome c oxidase subunit I','(cytochrome oxidase subunit I)','COX-1','CO-I','CO-1','CoI','coI','co-I','co-1','co 1','Co 1','Co I','Co1','CoI','coi','co-i','co i','cox 1','cox-1','cox i','cox-i']
@@ -247,6 +349,10 @@ def gene_correction(gene):
 		gene = gene
 	else:
 		sys.exit("There seems to be a gene read (%s) that does not match the following: ATP8, ATP6, COI, COII, COIII, CYTB, ND1, ND2, ND3, ND4, ND4L, ND5, ND6" % gene)
+	if args.DownloadDir:
+		file = open(os.path.join(args.DownloadDir, gene) + ".fn", 'a+')
+		file.write(">%s\n%s\n" % (name, sequence))
+		file.close()
 	return gene
 
 def gene_check(gene_characteristics, no_genes, sample, tax):
@@ -269,11 +375,11 @@ def calculate_cai(gene_dict, gen_code):
 				sequence = gene_dict[tupl]
 				if len(sequence) % 3 == 0:
 					rscu_list = []
-					#for other_tpl in gene_dict.keys():
-						#if other_tpl != tupl:
-							#if len(gene_dict[other_tpl]) % 3 == 0:
-								#reference.append(gene_dict[other_tpl])
-					#cai_value = CAI(sequence, reference = reference, genetic_code = int(gen_code))
+					for other_tpl in gene_dict.keys():
+						if other_tpl != tupl:
+							if len(gene_dict[other_tpl]) % 3 == 0:
+								reference.append(gene_dict[other_tpl])
+					cai_value = CAI(sequence, reference = reference, genetic_code = int(gen_code))
 					rscu_list.append(sequence)
 					rscu_values = RSCU(rscu_list, genetic_code = int(gen_code))
 					write_evol_characteristics(file = tupl, cai = cai_value, rscu = rscu_values)
@@ -314,15 +420,15 @@ def calculate_dnds(all_gene_dict):
 				aa_file.close()
 	for gene in pcg:
 		os.mkdir('KaKs/{}' .format(gene))
-		muscle_cline = MuscleCommandline(input = 'amino_acids/{}.faa' .format(gene), out = 'aa_alignments/{}.aln.faa' .format(gene))
+		muscle_cline = MuscleCommandline(input = 'amino_acids/{}.faa' .format(gene)) #out = 'aa_alignments/{}.aln.faa' .format(gene)
 		stdout, stderr = muscle_cline()
-		#with open('aa_alignments/{}.aln.faa' .format(gene), 'a+') as handle:
-			#handle.write(stdout)
-		#align = AlignIO.read('aa_alignments/{}.aln.faa' .format(gene), 'fasta')
+		with open('aa_alignments/{}.aln.faa' .format(gene), 'a+') as handle:
+			handle.write(stdout)
+		align = AlignIO.read('aa_alignments/{}.aln.faa' .format(gene), 'fasta')
 		ctl_file = open('codeml.ctl', 'a+')
-		ctl_file.write('seqfile = {}.pal2nal\noutfile = {}_codeml.txt\nnoisy = 0\nverbose = 1\nrunmode = -2\nseqtype = 1\nCodonFreq = 2\nmodel = 1\nNSsites = 0\nicode = {}\nfix_kappa = 1\nkappa = 1\nfix_omega = 0\nomega = 0.5' .format(gene,gene,str(int(args.GeneCode) -1)))
+		ctl_file.write('seqfile = {}.pal2nal\noutfile = {}_codeml.txt\nnoisy = 0\nverbose = 1\nrunmode = -2\nseqtype = 1\nCodonFreq = 2\nmodel = 1\nNSsites = 1\nicode = {}\nfix_kappa = 1\nkappa = 1\nfix_omega = 0\nomega = 0.5\ncleandata = 1' .format(gene,gene,str(int(args.GeneCode) -1)))
 		ctl_file.close()
-		os.system('/home/edu/Desktop/Softwares/guidance.v2.02/www/Guidance/guidance.pl --seqFile protein.fas --msaProgram MAFFT --seqType aa --outDir /somewhere/protein.guidance')
+		#os.system('/home/edu/Desktop/Softwares/guidance.v2.02/www/Guidance/guidance.pl --seqFile protein.fas --msaProgram MAFFT --seqType aa --outDir /somewhere/protein.guidance')
 		os.system('dnds/pal2nal.pl aa_alignments/{}.aln.faa protein_coding/{}.fna -output paml -codontable {} -nogap > {}.pal2nal' .format(gene,gene,args.GeneCode,gene))
 		os.system('codeml')
 		os.system('python dnds/parse_codeml_output.py {}_codeml.txt' .format(gene))
@@ -336,6 +442,7 @@ def calculate_dnds(all_gene_dict):
 		os.system('mv rub KaKs/{}' .format(gene))
 		os.system('mv 2ML* KaKs/{}' .format(gene))
 		os.system('mv 2NG* KaKs/{}' .format(gene))
+		os.system('mv 4fold.nuc KaKs/{}'.format(gene))
 
 def make_dnds_csv(codeml_file, all_gene_dict, gene):
 	results = codeml.read(codeml_file)
