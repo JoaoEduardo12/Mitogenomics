@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY021078.1           -          LepLan_F_339         -            1.5e-32  102.9  10.2   1.7e-32  102.8  10.2   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          LepLan_F_339         -            1.6e-32  102.9   8.9   1.8e-32  102.7   8.9   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          LepLan_F_339         -            1.6e-32  102.9   8.9   1.8e-32  102.7   8.9   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          LepLan_F_339         -            4.4e-32  101.4  10.8   4.9e-32  101.3  10.8   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          LepLan_F_339         -            4.4e-32  101.4  10.8   4.9e-32  101.3  10.8   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          LepLan_F_339         -            1.6e-29   93.3   8.8   1.8e-29   93.0   8.8   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          LepLan_F_339         -            7.6e-29   91.1  10.9   8.7e-29   90.9  10.9   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          LepLan_F_339         -            7.6e-29   91.1  10.9   8.7e-29   90.9  10.9   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          LepLan_F_339         -            7.6e-29   91.1  10.9   8.7e-29   90.9  10.9   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          LepLan_F_339         -            7.6e-29   91.1  10.9   8.7e-29   90.9  10.9   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          LepLan_F_339         -            7.6e-29   91.1  10.9   8.7e-29   90.9  10.9   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          LepLan_F_339         -            7.6e-29   91.1  10.9   8.7e-29   90.9  10.9   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          LepLan_F_339         -            1.7e-28   89.9   8.5   1.9e-28   89.8   8.5   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          LepLan_F_339         -            3.7e-28   88.9   3.9   4.1e-28   88.7   3.9   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          LepLan_F_339         -            2.6e-26   82.9   8.5   3.2e-26   82.7   8.5   1.1   1   0   0   1   1   1   1 -
+KU873123.1           -          LepLan_F_339         -            2.7e-26   82.9  11.8   3.1e-26   82.7  11.8   1.1   1   0   0   1   1   1   1 -
+KF030966.1           -          LepLan_F_339         -            1.3e-25   80.7   6.2   1.5e-25   80.5   6.2   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          LepLan_F_339         -            2.1e-25   80.0   7.0   2.3e-25   79.9   7.0   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          LepLan_F_339         -            3.2e-25   79.4   6.5   3.6e-25   79.3   6.5   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          LepLan_F_339         -            3.2e-25   79.4   6.5   3.6e-25   79.3   6.5   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          LepLan_F_339         -            3.2e-25   79.4   6.5   3.6e-25   79.3   6.5   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          LepLan_F_339         -            4.1e-22   69.5   0.9   4.4e-22   69.4   0.9   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          LepLan_F_339         -            1.9e-21   67.3   6.8   2.2e-21   67.2   6.8   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          LepLan_F_339         -            3.2e-21   66.6   7.5   3.8e-21   66.4   7.5   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          LepLan_F_339         -            3.7e-20   63.2   7.0   4.7e-20   62.9   7.0   1.1   1   0   0   1   1   1   1 -
+MW413895.1           -          LepLan_F_339         -            5.1e-20   62.8   7.0   6.7e-20   62.4   7.0   1.2   1   1   0   1   1   1   1 -
+KU873121.1           -          LepLan_F_339         -            4.4e-18   56.6  12.8   5.5e-18   56.3  12.8   1.1   1   0   0   1   1   1   1 -
+MH319826.1           -          LepLan_F_339         -            4.2e-17   53.4  11.4   5.4e-17   53.1  11.4   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          LepLan_F_339         -              1e-10   33.0   4.0   1.4e-10   32.5   4.0   1.2   1   0   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      LepLan_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/LepLan_F_forf.tbl LepLan_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:00:52 2021
+# [ok]

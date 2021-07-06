@@ -1,0 +1,41 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY021076.1           -          InvBra_F_337         -            3.7e-30   95.4  10.7     4e-30   95.3  10.7   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          InvBra_F_337         -            3.7e-30   95.4  10.7     4e-30   95.3  10.7   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          InvBra_F_337         -            3.9e-30   95.3  10.3   4.2e-30   95.2  10.3   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          InvBra_F_337         -            8.6e-30   94.2   4.6     1e-29   94.0   4.6   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          InvBra_F_337         -            1.9e-29   93.1   9.3   2.1e-29   93.0   9.3   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          InvBra_F_337         -            1.9e-29   93.1   9.3   2.1e-29   93.0   9.3   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          InvBra_F_337         -            1.5e-26   83.8   8.7   1.5e-26   83.7   8.7   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          InvBra_F_337         -            8.8e-26   81.3   9.0   9.9e-26   81.1   9.0   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          InvBra_F_337         -            8.9e-26   81.3   9.4   9.6e-26   81.2   9.4   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          InvBra_F_337         -            2.2e-24   76.8   8.9   2.5e-24   76.6   8.9   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          InvBra_F_337         -            3.9e-24   76.0   6.3   4.8e-24   75.7   6.3   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          InvBra_F_337         -            4.6e-24   75.8   9.6   5.5e-24   75.5   9.6   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          InvBra_F_337         -            7.9e-24   75.0   6.9   9.6e-24   74.8   6.9   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          InvBra_F_337         -              9e-24   74.9   6.5   1.1e-23   74.6   6.5   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          InvBra_F_337         -              9e-24   74.9   6.5   1.1e-23   74.6   6.5   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          InvBra_F_337         -              9e-24   74.9   6.5   1.1e-23   74.6   6.5   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          InvBra_F_337         -            1.8e-23   73.9   8.5     2e-23   73.8   8.5   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          InvBra_F_337         -            1.1e-22   71.4   1.3   1.1e-22   71.3   1.3   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          InvBra_F_337         -              4e-22   69.6  11.2     5e-22   69.3  11.2   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          InvBra_F_337         -              4e-22   69.6  11.2     5e-22   69.3  11.2   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          InvBra_F_337         -              4e-22   69.6  11.2     5e-22   69.3  11.2   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          InvBra_F_337         -              4e-22   69.6  11.2     5e-22   69.3  11.2   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          InvBra_F_337         -              4e-22   69.6  11.2     5e-22   69.3  11.2   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          InvBra_F_337         -              4e-22   69.6  11.2     5e-22   69.3  11.2   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          InvBra_F_337         -            5.8e-22   69.0   8.9   6.3e-22   68.9   8.9   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          InvBra_F_337         -            2.3e-18   57.5  13.3   2.5e-18   57.4  13.3   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          InvBra_F_337         -            1.6e-14   45.1   5.6   2.2e-14   44.7   5.6   1.2   1   0   0   1   1   1   1 -
+MH319826.1           -          InvBra_F_337         -            1.1e-13   42.4  12.7   1.4e-13   42.2  12.7   1.1   1   0   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      InvBra_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/InvBra_F_forf.tbl InvBra_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:56:33 2021
+# [ok]

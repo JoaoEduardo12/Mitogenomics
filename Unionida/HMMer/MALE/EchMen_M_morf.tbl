@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KU873122.1           -          EchMen_M_293         -           6.3e-219  715.4  30.0  7.1e-219  715.2  30.0   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      EchMen_M.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/MALE/EchMen_M_morf.tbl EchMen_M.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/MALE
+# Date:            Thu Apr  8 01:20:03 2021
+# [ok]

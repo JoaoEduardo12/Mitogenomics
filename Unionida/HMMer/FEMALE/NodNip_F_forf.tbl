@@ -1,0 +1,38 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY290446.1           -          NodNip_F_361         -            1.1e-39  125.3   6.9   1.2e-39  125.1   6.9   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          NodNip_F_361         -            1.1e-39  125.3   6.9   1.2e-39  125.1   6.9   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          NodNip_F_361         -            9.6e-38  119.0   3.5   1.1e-37  118.8   3.5   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          NodNip_F_361         -            1.3e-37  118.6   7.8   1.5e-37  118.4   7.8   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          NodNip_F_361         -            4.8e-37  116.8   8.4   5.5e-37  116.6   8.4   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          NodNip_F_361         -            4.8e-37  116.8   8.4   5.5e-37  116.6   8.4   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          NodNip_F_361         -            5.8e-36  113.3   7.6   6.2e-36  113.2   7.6   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          NodNip_F_361         -            8.8e-36  112.7   7.7   9.4e-36  112.6   7.7   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          NodNip_F_361         -            8.8e-36  112.7   7.7   9.4e-36  112.6   7.7   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          NodNip_F_361         -            8.8e-36  112.7   7.7   9.4e-36  112.6   7.7   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          NodNip_F_361         -            2.1e-35  111.5   6.0   2.3e-35  111.4   6.0   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          NodNip_F_361         -            2.6e-35  111.2   8.0   2.8e-35  111.1   8.0   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          NodNip_F_361         -            1.4e-33  105.7   4.3   1.8e-33  105.3   4.3   1.2   1   0   0   1   1   1   1 -
+HQ283344.1           -          NodNip_F_361         -            2.7e-33  104.8   7.3   3.1e-33  104.6   7.3   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          NodNip_F_361         -            2.7e-33  104.8   7.3   3.1e-33  104.6   7.3   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          NodNip_F_361         -            2.7e-33  104.8   7.3   3.1e-33  104.6   7.3   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          NodNip_F_361         -            2.7e-33  104.8   7.3   3.1e-33  104.6   7.3   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          NodNip_F_361         -            2.7e-33  104.8   7.3   3.1e-33  104.6   7.3   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          NodNip_F_361         -            2.7e-33  104.8   7.3   3.1e-33  104.6   7.3   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          NodNip_F_361         -            5.7e-33  103.7   4.8   6.2e-33  103.6   4.8   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          NodNip_F_361         -            1.1e-27   86.8   0.9   1.1e-27   86.8   0.9   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          NodNip_F_361         -            0.00016   12.5   7.3    0.0026    8.7   7.3   2.1   1   1   0   1   1   1   0 -
+KU873121.1           -          NodNip_F_361         -             0.0011    9.9  12.0    0.0055    7.6  12.0   1.9   1   1   0   1   1   1   0 -
+MF326971.1           -          NodNip_F_361         -             0.0014    9.5   6.6    0.0028    8.6   6.6   1.6   1   1   0   1   1   1   0 -
+MF326973.1           -          NodNip_F_363         -            6.2e-09   26.7   7.5   6.2e-09   26.7   7.5   2.0   2   0   0   2   2   2   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      NodNip_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/NodNip_F_forf.tbl NodNip_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:04:40 2021
+# [ok]

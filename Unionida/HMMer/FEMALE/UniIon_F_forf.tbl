@@ -1,0 +1,36 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY290446.1           -          UniIon_F_326         -            4.7e-42  132.9   8.9   5.2e-42  132.7   8.9   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          UniIon_F_326         -            4.7e-42  132.9   8.9   5.2e-42  132.7   8.9   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          UniIon_F_326         -            1.9e-40  127.7   9.4   2.1e-40  127.6   9.4   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          UniIon_F_326         -            2.7e-40  127.2   9.8     3e-40  127.1   9.8   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          UniIon_F_326         -            2.7e-40  127.2   9.8     3e-40  127.1   9.8   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          UniIon_F_326         -            2.5e-37  117.7   7.5   2.6e-37  117.6   7.5   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          UniIon_F_326         -            1.6e-36  115.1   4.0   1.8e-36  115.0   4.0   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          UniIon_F_326         -            2.4e-35  111.4   9.1   2.6e-35  111.2   9.1   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          UniIon_F_326         -            2.4e-35  111.4   9.1   2.6e-35  111.2   9.1   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          UniIon_F_326         -            2.4e-35  111.4   9.1   2.6e-35  111.2   9.1   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          UniIon_F_326         -            2.4e-35  111.4   9.1   2.6e-35  111.2   9.1   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          UniIon_F_326         -            2.4e-35  111.4   9.1   2.6e-35  111.2   9.1   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          UniIon_F_326         -            2.4e-35  111.4   9.1   2.6e-35  111.2   9.1   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          UniIon_F_326         -            1.4e-34  108.9   6.8   1.5e-34  108.8   6.8   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          UniIon_F_326         -            1.4e-34  108.9   6.8   1.5e-34  108.8   6.8   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          UniIon_F_326         -            1.4e-34  108.9   6.8   1.5e-34  108.8   6.8   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          UniIon_F_326         -            1.7e-34  108.6   6.7   1.8e-34  108.6   6.7   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          UniIon_F_326         -              1e-33  106.1   7.2   1.1e-33  106.1   7.2   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          UniIon_F_326         -            1.2e-33  105.9   5.8   1.3e-33  105.8   5.8   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          UniIon_F_326         -              4e-33  104.2   4.9   5.3e-33  103.9   4.9   1.2   1   0   0   1   1   1   1 -
+HM856636.1           -          UniIon_F_326         -            5.2e-28   87.9   1.2   5.5e-28   87.8   1.2   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          UniIon_F_326         -            1.3e-09   28.9   9.8   6.6e-09   26.6   9.8   2.0   1   1   0   1   1   1   1 -
+MF326971.1           -          UniIon_F_326         -             0.0013    9.6   7.6     0.003    8.5   7.6   1.7   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      UniIon_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/UniIon_F_forf.tbl UniIon_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:15:08 2021
+# [ok]

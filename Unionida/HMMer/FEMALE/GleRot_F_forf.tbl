@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KU559011.1           -          GleRot_F_338         -            9.2e-15   45.4   4.2   9.2e-15   45.4   4.2   1.9   2   0   0   2   2   2   1 -
+MW413895.1           -          GleRot_F_338         -            2.2e-14   44.2   4.5   2.2e-14   44.2   4.5   2.0   2   0   0   2   2   2   1 -
+MF326971.1           -          GleRot_F_338         -            6.3e-13   39.6   7.1   1.3e-12   38.6   7.1   1.6   1   0   0   1   1   1   1 -
+MF326971.1           -          GleRot_F_339         -            4.1e-33  105.2   4.8   4.8e-33  105.0   4.8   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          GleRot_F_339         -            1.4e-26   84.2   6.0   1.5e-26   84.1   6.0   1.1   1   0   0   1   1   1   1 -
+MW413895.1           -          GleRot_F_339         -            2.7e-26   83.2   4.8   3.1e-26   83.0   4.8   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          GleRot_F_339         -            1.7e-24   77.4   2.8   1.9e-24   77.3   2.8   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      GleRot_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/GleRot_F_forf.tbl GleRot_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:55:11 2021
+# [ok]

@@ -1,0 +1,37 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MH319826.1           -          PseHom_F_323         -            9.7e-36  113.9  15.6   1.1e-35  113.8  15.6   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          PseHom_F_323         -              3e-25   80.0   9.5   3.3e-25   79.9   9.5   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          PseHom_F_323         -              3e-25   80.0   9.5   3.3e-25   79.9   9.5   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          PseHom_F_323         -            3.8e-25   79.7   8.8   4.1e-25   79.6   8.8   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          PseHom_F_323         -            1.3e-24   78.0   2.1   1.5e-24   77.8   2.1   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          PseHom_F_323         -            1.7e-24   77.6   7.3   1.8e-24   77.5   7.3   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          PseHom_F_323         -            1.7e-24   77.6   7.3   1.8e-24   77.5   7.3   1.0   1   0   0   1   1   1   1 -
+KU873123.1           -          PseHom_F_323         -            1.5e-21   68.1  12.4   1.8e-21   67.8  12.4   1.2   1   0   0   1   1   1   1 -
+KT326917.1           -          PseHom_F_323         -            2.9e-21   67.1   5.7   3.1e-21   67.1   5.7   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          PseHom_F_323         -            5.7e-20   63.0   5.2   6.5e-20   62.8   5.2   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          PseHom_F_323         -            8.9e-20   62.3   6.1   9.7e-20   62.2   6.1   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          PseHom_F_323         -            1.2e-19   62.0   4.6   1.3e-19   61.8   4.6   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          PseHom_F_323         -            1.6e-19   61.6   8.1   1.6e-19   61.5   8.1   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          PseHom_F_323         -            1.6e-19   61.6   8.1   1.6e-19   61.5   8.1   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          PseHom_F_323         -            1.6e-19   61.6   8.1   1.6e-19   61.5   8.1   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          PseHom_F_323         -            1.6e-19   61.6   8.1   1.6e-19   61.5   8.1   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          PseHom_F_323         -            1.6e-19   61.6   8.1   1.6e-19   61.5   8.1   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          PseHom_F_323         -            1.6e-19   61.6   8.1   1.6e-19   61.5   8.1   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          PseHom_F_323         -            2.7e-19   60.8   4.8   3.1e-19   60.6   4.8   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          PseHom_F_323         -            2.7e-19   60.8   4.8   3.1e-19   60.6   4.8   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          PseHom_F_323         -            2.7e-19   60.8   4.8   3.1e-19   60.6   4.8   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          PseHom_F_323         -            4.7e-19   60.0  12.0   5.5e-19   59.8  12.0   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          PseHom_F_323         -            2.3e-16   51.3   5.0   2.6e-16   51.1   5.0   1.1   1   0   0   1   1   1   1 -
+HM856636.1           -          PseHom_F_323         -            8.1e-16   49.5   0.4   8.6e-16   49.5   0.4   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      PseHom_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/PseHom_F_forf.tbl PseHom_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:07:27 2021
+# [ok]

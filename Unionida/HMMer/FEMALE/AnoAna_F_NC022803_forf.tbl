@@ -1,0 +1,41 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KF030966.1           -          AnoAna_F_NC022803_353 -            1.8e-36  115.3   9.0     2e-36  115.2   9.0   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          AnoAna_F_NC022803_353 -            2.4e-36  114.9   9.2   2.7e-36  114.8   9.2   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          AnoAna_F_NC022803_353 -            2.4e-36  114.9   9.2   2.7e-36  114.8   9.2   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          AnoAna_F_NC022803_353 -            2.4e-36  114.9   9.2   2.7e-36  114.8   9.2   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          AnoAna_F_NC022803_353 -            3.1e-36  114.5   9.3   3.4e-36  114.4   9.3   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          AnoAna_F_NC022803_353 -            1.4e-33  106.1   7.6   1.5e-33  105.9   7.6   1.1   1   0   0   1   1   1   1 -
+KY290447.1           -          AnoAna_F_NC022803_353 -            1.4e-33  106.1   7.6   1.5e-33  105.9   7.6   1.1   1   0   0   1   1   1   1 -
+HQ283344.1           -          AnoAna_F_NC022803_353 -            5.9e-33  104.0  11.1   7.2e-33  103.8  11.1   1.1   1   0   0   1   1   1   1 -
+HQ283345.1           -          AnoAna_F_NC022803_353 -            5.9e-33  104.0  11.1   7.2e-33  103.8  11.1   1.1   1   0   0   1   1   1   1 -
+HQ283346.1           -          AnoAna_F_NC022803_353 -            5.9e-33  104.0  11.1   7.2e-33  103.8  11.1   1.1   1   0   0   1   1   1   1 -
+HQ283347.1           -          AnoAna_F_NC022803_353 -            5.9e-33  104.0  11.1   7.2e-33  103.8  11.1   1.1   1   0   0   1   1   1   1 -
+HQ283348.1           -          AnoAna_F_NC022803_353 -            5.9e-33  104.0  11.1   7.2e-33  103.8  11.1   1.1   1   0   0   1   1   1   1 -
+KM272949.1           -          AnoAna_F_NC022803_353 -            5.9e-33  104.0  11.1   7.2e-33  103.8  11.1   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          AnoAna_F_NC022803_353 -            1.3e-31   99.8   9.5   1.5e-31   99.5   9.5   1.1   1   0   0   1   1   1   1 -
+KT326917.1           -          AnoAna_F_NC022803_353 -            1.3e-31   99.7   7.9   1.6e-31   99.5   7.9   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          AnoAna_F_NC022803_353 -            2.8e-31   98.7  10.0   3.4e-31   98.4  10.0   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          AnoAna_F_NC022803_353 -            2.8e-31   98.7  10.0   3.4e-31   98.4  10.0   1.1   1   0   0   1   1   1   1 -
+MF687348.1           -          AnoAna_F_NC022803_353 -            3.5e-31   98.3   3.6   4.3e-31   98.1   3.6   1.1   1   0   0   1   1   1   1 -
+MF687347.1           -          AnoAna_F_NC022803_353 -            3.9e-29   91.8   8.2     5e-29   91.5   8.2   1.2   1   0   0   1   1   1   1 -
+KR873102.1           -          AnoAna_F_NC022803_353 -            1.7e-28   89.7   7.0     2e-28   89.5   7.0   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          AnoAna_F_NC022803_353 -              5e-24   75.4   7.9   5.9e-24   75.2   7.9   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          AnoAna_F_NC022803_353 -            9.4e-23   71.3   1.7   1.1e-22   71.2   1.7   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          AnoAna_F_NC022803_353 -              2e-21   67.1   7.7   2.4e-21   66.8   7.7   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          AnoAna_F_NC022803_353 -            2.8e-21   66.6   7.5   3.3e-21   66.4   7.5   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          AnoAna_F_NC022803_353 -            1.3e-19   61.3  10.4   1.6e-19   61.0  10.4   1.1   1   0   0   1   1   1   1 -
+KC848654.1           -          AnoAna_F_NC022803_353 -            1.4e-19   61.2   6.3   1.6e-19   61.0   6.3   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          AnoAna_F_NC022803_353 -            4.8e-17   53.1   7.3   5.2e-17   53.0   5.4   1.7   1   1   1   2   2   2   1 -
+KU873123.1           -          AnoAna_F_NC022803_353 -              0.037    5.4  17.9         2   -0.2  17.9   2.7   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      AnoAna_F_NC022803.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/AnoAna_F_NC022803_forf.tbl AnoAna_F_NC022803.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:47:10 2021
+# [ok]

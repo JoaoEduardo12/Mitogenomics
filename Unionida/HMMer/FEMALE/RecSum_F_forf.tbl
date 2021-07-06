@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF326971.1           -          RecSum_F_369         -            1.2e-26   84.3   8.1   1.5e-26   84.1   8.1   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          RecSum_F_369         -            2.5e-26   83.3   6.8     3e-26   83.1   6.8   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          RecSum_F_369         -            5.6e-25   79.0   8.1   6.3e-25   78.8   8.1   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          RecSum_F_369         -            1.2e-21   68.3   9.1   1.4e-21   68.1   9.1   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          RecSum_F_369         -            3.7e-20   63.5   1.9   4.5e-20   63.2   1.9   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          RecSum_F_369         -            6.4e-20   62.7  12.0   7.5e-20   62.5  12.0   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          RecSum_F_369         -            1.5e-19   61.5   9.1   1.7e-19   61.4   9.1   1.1   1   0   0   1   1   1   1 -
+HQ283345.1           -          RecSum_F_369         -            1.5e-19   61.5   9.1   1.7e-19   61.4   9.1   1.1   1   0   0   1   1   1   1 -
+HQ283346.1           -          RecSum_F_369         -            1.5e-19   61.5   9.1   1.7e-19   61.4   9.1   1.1   1   0   0   1   1   1   1 -
+HQ283347.1           -          RecSum_F_369         -            1.5e-19   61.5   9.1   1.7e-19   61.4   9.1   1.1   1   0   0   1   1   1   1 -
+HQ283348.1           -          RecSum_F_369         -            1.5e-19   61.5   9.1   1.7e-19   61.4   9.1   1.1   1   0   0   1   1   1   1 -
+KM272949.1           -          RecSum_F_369         -            1.5e-19   61.5   9.1   1.7e-19   61.4   9.1   1.1   1   0   0   1   1   1   1 -
+KC848654.1           -          RecSum_F_369         -            1.8e-18   58.0   2.3   2.3e-18   57.7   2.3   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          RecSum_F_369         -              3e-18   57.3   9.7   3.2e-18   57.2   9.7   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          RecSum_F_369         -            5.2e-18   56.6  10.1   5.6e-18   56.5  10.1   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          RecSum_F_369         -            5.2e-18   56.6  10.1   5.6e-18   56.5  10.1   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          RecSum_F_369         -            5.8e-18   56.4   5.9   6.5e-18   56.2   5.9   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          RecSum_F_369         -            5.8e-18   56.4   5.9   6.5e-18   56.2   5.9   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          RecSum_F_369         -            5.8e-18   56.4   5.9   6.5e-18   56.2   5.9   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          RecSum_F_369         -              1e-17   55.6   5.7   1.2e-17   55.4   5.7   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          RecSum_F_369         -            1.3e-17   55.2   6.6   1.5e-17   55.1   6.6   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          RecSum_F_369         -            1.7e-16   51.7   5.9   1.9e-16   51.5   5.9   1.2   1   0   0   1   1   1   1 -
+KR873102.1           -          RecSum_F_369         -              2e-16   51.4   3.5   2.3e-16   51.2   3.5   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          RecSum_F_369         -            4.3e-15   47.2   7.4   4.5e-15   47.1   7.4   1.1   1   0   0   1   1   1   1 -
+KY290447.1           -          RecSum_F_369         -            4.3e-15   47.2   7.4   4.5e-15   47.1   7.4   1.1   1   0   0   1   1   1   1 -
+KT326917.1           -          RecSum_F_369         -              1e-14   46.0   5.6   1.2e-14   45.7   5.6   1.1   1   0   0   1   1   1   1 -
+MH319826.1           -          RecSum_F_369         -            2.1e-14   44.9   9.0   2.5e-14   44.7   9.0   1.1   1   0   0   1   1   1   1 -
+HM856636.1           -          RecSum_F_369         -              1e-12   39.5   0.3   1.2e-12   39.3   0.3   1.0   1   0   0   1   1   1   1 -
+KU873123.1           -          RecSum_F_369         -             0.0002   12.9  18.8     0.004    8.7  18.8   2.1   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      RecSum_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/RecSum_F_forf.tbl RecSum_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:09:06 2021
+# [ok]

@@ -1,0 +1,41 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KF030966.1           -          AnoAna_F_KF030965_355 -            5.3e-37  116.8   9.0   5.8e-37  116.7   9.0   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          AnoAna_F_KF030965_355 -            6.9e-37  116.5   9.2   7.5e-37  116.4   9.2   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          AnoAna_F_KF030965_355 -            7.5e-37  116.4   9.1   8.2e-37  116.2   9.1   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          AnoAna_F_KF030965_355 -            7.5e-37  116.4   9.1   8.2e-37  116.2   9.1   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          AnoAna_F_KF030965_355 -            7.5e-37  116.4   9.1   8.2e-37  116.2   9.1   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          AnoAna_F_KF030965_355 -            8.9e-33  103.3   7.5     1e-32  103.1   7.5   1.1   1   0   0   1   1   1   1 -
+KY290447.1           -          AnoAna_F_KF030965_355 -            8.9e-33  103.3   7.5     1e-32  103.1   7.5   1.1   1   0   0   1   1   1   1 -
+HQ283344.1           -          AnoAna_F_KF030965_355 -            1.5e-32  102.6  10.7   1.8e-32  102.3  10.7   1.1   1   0   0   1   1   1   1 -
+HQ283345.1           -          AnoAna_F_KF030965_355 -            1.5e-32  102.6  10.7   1.8e-32  102.3  10.7   1.1   1   0   0   1   1   1   1 -
+HQ283346.1           -          AnoAna_F_KF030965_355 -            1.5e-32  102.6  10.7   1.8e-32  102.3  10.7   1.1   1   0   0   1   1   1   1 -
+HQ283347.1           -          AnoAna_F_KF030965_355 -            1.5e-32  102.6  10.7   1.8e-32  102.3  10.7   1.1   1   0   0   1   1   1   1 -
+HQ283348.1           -          AnoAna_F_KF030965_355 -            1.5e-32  102.6  10.7   1.8e-32  102.3  10.7   1.1   1   0   0   1   1   1   1 -
+KM272949.1           -          AnoAna_F_KF030965_355 -            1.5e-32  102.6  10.7   1.8e-32  102.3  10.7   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          AnoAna_F_KF030965_355 -              6e-31   97.4   9.1   7.3e-31   97.2   9.1   1.1   1   0   0   1   1   1   1 -
+KT326917.1           -          AnoAna_F_KF030965_355 -            6.9e-31   97.3   8.2   8.2e-31   97.0   8.2   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          AnoAna_F_KF030965_355 -            1.1e-30   96.6   9.6   1.3e-30   96.4   9.6   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          AnoAna_F_KF030965_355 -            1.1e-30   96.6   9.6   1.3e-30   96.4   9.6   1.1   1   0   0   1   1   1   1 -
+MF687347.1           -          AnoAna_F_KF030965_355 -            8.4e-30   93.8   7.3     1e-29   93.5   7.3   1.1   1   0   0   1   1   1   1 -
+MF687348.1           -          AnoAna_F_KF030965_355 -            1.8e-29   92.7   4.2   2.1e-29   92.5   4.2   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          AnoAna_F_KF030965_355 -            2.7e-27   85.8   7.3   3.1e-27   85.5   7.3   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          AnoAna_F_KF030965_355 -            2.8e-24   76.1   6.2   3.4e-24   75.8   6.2   1.1   1   0   0   1   1   1   1 -
+HM856636.1           -          AnoAna_F_KF030965_355 -            1.1e-22   70.9   1.1   1.4e-22   70.7   1.1   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          AnoAna_F_KF030965_355 -            3.7e-21   66.1   7.4   4.5e-21   65.8   7.4   1.1   1   0   0   1   1   1   1 -
+KU873121.1           -          AnoAna_F_KF030965_355 -            4.6e-21   65.8  10.1   5.7e-21   65.5  10.1   1.1   1   0   0   1   1   1   1 -
+KU559011.1           -          AnoAna_F_KF030965_355 -            2.6e-20   63.4   7.6   3.1e-20   63.1   7.6   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          AnoAna_F_KF030965_355 -            6.7e-18   55.6   6.9   7.8e-18   55.4   6.9   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          AnoAna_F_KF030965_355 -            7.3e-15   45.9   3.5   7.3e-15   45.9   3.5   1.6   1   1   1   2   2   2   1 -
+KU873123.1           -          AnoAna_F_KF030965_355 -               0.28    2.4  18.3       4.4   -1.5  18.3   2.4   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      AnoAna_F_KF030965.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/AnoAna_F_KF030965_forf.tbl AnoAna_F_KF030965.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:46:30 2021
+# [ok]

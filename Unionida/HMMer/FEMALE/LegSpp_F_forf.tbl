@@ -1,0 +1,40 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF687348.1           -          Legsp_331            -            4.1e-26   82.1   2.7   4.5e-26   82.0   2.7   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          Legsp_331            -            4.7e-26   81.9   5.8   5.4e-26   81.8   5.8   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          Legsp_331            -            1.2e-24   77.5   5.1   1.3e-24   77.3   5.1   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          Legsp_331            -            1.2e-24   77.5   5.1   1.3e-24   77.3   5.1   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          Legsp_331            -            2.4e-24   76.5   7.9   2.7e-24   76.3   7.9   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          Legsp_331            -            2.7e-24   76.3   9.5     3e-24   76.2   9.5   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          Legsp_331            -            2.7e-23   73.1   5.4   2.9e-23   73.0   5.4   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          Legsp_331            -            3.5e-23   72.7   8.9   3.9e-23   72.6   8.9   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          Legsp_331            -            4.1e-23   72.5   6.5   4.8e-23   72.3   6.5   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          Legsp_331            -            4.1e-23   72.5   6.5   4.8e-23   72.3   6.5   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          Legsp_331            -            4.2e-23   72.5   6.2   4.9e-23   72.3   6.2   1.1   1   0   0   1   1   1   1 -
+HQ283344.1           -          Legsp_331            -            8.8e-23   71.5   7.7     1e-22   71.2   7.7   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          Legsp_331            -            8.8e-23   71.5   7.7     1e-22   71.2   7.7   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          Legsp_331            -            8.8e-23   71.5   7.7     1e-22   71.2   7.7   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          Legsp_331            -            8.8e-23   71.5   7.7     1e-22   71.2   7.7   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          Legsp_331            -            8.8e-23   71.5   7.7     1e-22   71.2   7.7   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          Legsp_331            -            8.8e-23   71.5   7.7     1e-22   71.2   7.7   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          Legsp_331            -            2.3e-22   70.1   5.0   2.6e-22   70.0   5.0   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          Legsp_331            -            2.3e-22   70.1   5.0   2.6e-22   70.0   5.0   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          Legsp_331            -            2.3e-22   70.1   5.0   2.6e-22   70.0   5.0   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          Legsp_331            -              3e-22   69.7   4.7   3.4e-22   69.6   4.7   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          Legsp_331            -            1.8e-21   67.3   4.9     2e-21   67.1   4.9   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          Legsp_331            -            4.8e-21   65.9   5.2   5.6e-21   65.7   5.2   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          Legsp_331            -            2.7e-20   63.5   0.6   2.9e-20   63.4   0.6   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          Legsp_331            -            7.2e-20   62.1   6.7   8.2e-20   61.9   6.7   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          Legsp_331            -            4.7e-13   40.3   6.2     6e-13   39.9   6.2   1.2   1   0   0   1   1   1   1 -
+KU873123.1           -          Legsp_331            -              0.028    5.8  17.4     0.082    4.2   5.9   2.2   1   1   1   2   2   2   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      LegSpp_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/LegSpp_F_forf.tbl LegSpp_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:59:50 2021
+# [ok]

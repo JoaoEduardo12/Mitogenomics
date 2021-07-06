@@ -1,0 +1,41 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY290446.1           -          AnoAna_F_WesMed_348  -            1.4e-35  112.4   8.0   1.6e-35  112.3   8.0   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          AnoAna_F_WesMed_348  -            1.4e-35  112.4   8.0   1.6e-35  112.3   8.0   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          AnoAna_F_WesMed_348  -            2.5e-34  108.4   8.9   2.7e-34  108.3   8.9   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          AnoAna_F_WesMed_348  -            4.4e-34  107.6   9.2   4.8e-34  107.5   9.2   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          AnoAna_F_WesMed_348  -            4.4e-34  107.6   9.2   4.8e-34  107.5   9.2   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          AnoAna_F_WesMed_348  -            4.4e-34  107.6   9.2   4.8e-34  107.5   9.2   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          AnoAna_F_WesMed_348  -            5.3e-34  107.4   9.3   5.8e-34  107.3   9.3   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          AnoAna_F_WesMed_348  -            3.7e-33  104.7  11.2   4.3e-33  104.5  11.2   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          AnoAna_F_WesMed_348  -            3.7e-33  104.7  11.2   4.3e-33  104.5  11.2   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          AnoAna_F_WesMed_348  -            3.7e-33  104.7  11.2   4.3e-33  104.5  11.2   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          AnoAna_F_WesMed_348  -            3.7e-33  104.7  11.2   4.3e-33  104.5  11.2   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          AnoAna_F_WesMed_348  -            3.7e-33  104.7  11.2   4.3e-33  104.5  11.2   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          AnoAna_F_WesMed_348  -            3.7e-33  104.7  11.2   4.3e-33  104.5  11.2   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          AnoAna_F_WesMed_348  -              1e-32  103.3   9.9   1.2e-32  103.1   9.9   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          AnoAna_F_WesMed_348  -            1.5e-32  102.7  10.5   1.8e-32  102.5  10.5   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          AnoAna_F_WesMed_348  -            1.5e-32  102.7  10.5   1.8e-32  102.5  10.5   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          AnoAna_F_WesMed_348  -            2.3e-32  102.1   8.1   2.5e-32  102.0   8.1   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          AnoAna_F_WesMed_348  -            4.1e-32  101.3   3.8   4.6e-32  101.2   3.8   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          AnoAna_F_WesMed_348  -            1.5e-29   93.1   6.8   1.9e-29   92.8   6.8   1.1   1   0   0   1   1   1   1 -
+KR873102.1           -          AnoAna_F_WesMed_348  -            5.4e-29   91.3   7.7   5.9e-29   91.2   7.7   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          AnoAna_F_WesMed_348  -            3.7e-25   79.0   8.0   4.4e-25   78.8   8.0   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          AnoAna_F_WesMed_348  -            4.7e-25   78.7   1.6   4.9e-25   78.7   1.6   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          AnoAna_F_WesMed_348  -            6.2e-23   71.9   7.9   7.1e-23   71.7   7.9   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          AnoAna_F_WesMed_348  -            2.3e-22   70.1   7.6   2.6e-22   69.9   7.6   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          AnoAna_F_WesMed_348  -            4.3e-20   62.8  10.3   5.1e-20   62.6  10.3   1.1   1   0   0   1   1   1   1 -
+KC848654.1           -          AnoAna_F_WesMed_348  -            5.4e-20   62.5   6.6   6.5e-20   62.2   6.6   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          AnoAna_F_WesMed_348  -            8.5e-18   55.5   7.9   8.9e-18   55.4   5.9   1.8   1   1   1   2   2   2   1 -
+KU873123.1           -          AnoAna_F_WesMed_348  -              0.058    4.7  18.8       3.4   -0.9  18.8   2.7   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      AnoAna_F_WesMed.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/AnoAna_F_WesMed_forf.tbl AnoAna_F_WesMed.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:47:18 2021
+# [ok]

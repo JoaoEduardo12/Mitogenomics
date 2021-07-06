@@ -1,0 +1,40 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY290446.1           -          LanGra_F_336         -            1.5e-32  103.0   6.9   1.7e-32  102.8   6.9   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          LanGra_F_336         -            1.5e-32  103.0   6.9   1.7e-32  102.8   6.9   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          LanGra_F_336         -            7.4e-32  100.8   8.5   8.6e-32  100.6   8.5   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          LanGra_F_336         -            1.1e-31  100.2   9.0   1.3e-31  100.0   9.0   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          LanGra_F_336         -            1.1e-31  100.2   9.0   1.3e-31  100.0   9.0   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          LanGra_F_336         -            5.5e-31   98.0   3.8   6.5e-31   97.7   3.8   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          LanGra_F_336         -            7.1e-31   97.6   6.4   7.5e-31   97.5   6.4   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          LanGra_F_336         -            3.1e-29   92.4   7.4   3.5e-29   92.2   7.4   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          LanGra_F_336         -            9.8e-29   90.7   8.7   1.2e-28   90.5   8.7   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          LanGra_F_336         -            9.8e-29   90.7   8.7   1.2e-28   90.5   8.7   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          LanGra_F_336         -            9.8e-29   90.7   8.7   1.2e-28   90.5   8.7   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          LanGra_F_336         -            9.8e-29   90.7   8.7   1.2e-28   90.5   8.7   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          LanGra_F_336         -            9.8e-29   90.7   8.7   1.2e-28   90.5   8.7   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          LanGra_F_336         -            9.8e-29   90.7   8.7   1.2e-28   90.5   8.7   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          LanGra_F_336         -            4.2e-28   88.7   6.9   5.1e-28   88.4   6.9   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          LanGra_F_336         -            5.7e-28   88.3   5.7   6.2e-28   88.1   5.7   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          LanGra_F_336         -            6.1e-28   88.2   5.8   6.6e-28   88.1   5.8   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          LanGra_F_336         -            6.1e-28   88.2   5.8   6.6e-28   88.1   5.8   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          LanGra_F_336         -            6.1e-28   88.2   5.8   6.6e-28   88.1   5.8   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          LanGra_F_336         -            1.8e-27   86.7   6.1   1.9e-27   86.6   6.1   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          LanGra_F_336         -            2.8e-25   79.6   7.9     3e-25   79.5   7.9   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          LanGra_F_336         -            3.9e-24   75.9   0.7   4.1e-24   75.9   0.7   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          LanGra_F_336         -            2.3e-23   73.4   7.8   2.5e-23   73.3   7.8   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          LanGra_F_336         -              3e-23   73.1   7.5   3.3e-23   73.0   7.5   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          LanGra_F_336         -            1.6e-21   67.5   4.8   1.8e-21   67.3   4.8   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          LanGra_F_336         -            1.9e-15   48.0   4.8   2.2e-15   47.8   4.8   1.1   1   0   0   1   1   1   1 -
+KU873121.1           -          LanGra_F_336         -             0.0013    9.9  12.9    0.0045    8.2  12.9   1.7   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      LanGra_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/LanGra_F_forf.tbl LanGra_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:58:39 2021
+# [ok]

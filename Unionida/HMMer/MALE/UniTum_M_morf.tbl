@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY021075.1           -          UniTum_M_61          -           3.9e-106  343.5  16.8  4.4e-106  343.4  16.8   1.0   1   0   0   1   1   1   1 -
+KY021073.1           -          UniTum_M_61          -           6.4e-106  342.8  17.0  7.1e-106  342.7  17.0   1.0   1   0   0   1   1   1   1 -
+KY021074.1           -          UniTum_M_61          -           6.4e-106  342.8  17.0  7.1e-106  342.7  17.0   1.0   1   0   0   1   1   1   1 -
+KY290448.1           -          UniTum_M_61          -            3.6e-93  301.2  18.8     4e-93  301.1  18.8   1.0   1   0   0   1   1   1   1 -
+KY290449.1           -          UniTum_M_61          -            3.6e-93  301.2  18.8     4e-93  301.1  18.8   1.0   1   0   0   1   1   1   1 -
+KY290450.1           -          UniTum_M_61          -            6.5e-93  300.4  22.0   7.2e-93  300.2  22.0   1.0   1   0   0   1   1   1   1 -
+KT326918.1           -          UniTum_M_61          -              5e-92  297.5  21.1   5.9e-92  297.3  21.1   1.1   1   0   0   1   1   1   1 -
+MH349357.1           -          UniTum_M_61          -            3.6e-89  288.2  20.6   4.2e-89  287.9  20.6   1.1   1   0   0   1   1   1   1 -
+MH349358.1           -          UniTum_M_61          -            3.6e-89  288.2  20.6   4.2e-89  287.9  20.6   1.1   1   0   0   1   1   1   1 -
+HM856635.1           -          UniTum_M_61          -            3.9e-78  252.1  13.1   4.6e-78  251.9  13.1   1.0   1   0   0   1   1   1   1 -
+KF030963.1           -          UniTum_M_61          -            4.8e-77  248.6  16.5   6.9e-77  248.0  16.5   1.1   1   0   0   1   1   1   1 -
+KF030962.1           -          UniTum_M_61          -            5.4e-77  248.4  16.4   7.7e-77  247.9  16.4   1.1   1   0   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      UniTum_M.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/MALE/UniTum_M_morf.tbl UniTum_M.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/MALE
+# Date:            Thu Apr  8 01:25:00 2021
+# [ok]

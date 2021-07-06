@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF326971.1           -          LamOrn_F_332         -            1.8e-53  169.8   9.3     2e-53  169.6   9.3   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          LamOrn_F_332         -            8.9e-51  161.1  10.4   9.8e-51  161.0  10.4   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          LamOrn_F_332         -            1.3e-49  157.3   9.0   1.5e-49  157.2   9.0   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          LamOrn_F_332         -            5.9e-42  132.8   8.2   7.2e-42  132.6   8.2   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          LamOrn_F_333         -            5.2e-31   97.5   9.2   1.3e-30   96.3   9.2   1.7   1   0   0   1   1   1   1 -
+KU559011.1           -          LamOrn_F_523         -             0.0017   10.2   4.5    0.0015   10.3   2.5   2.1   2   0   0   2   2   2   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      LamOrn_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/LamOrn_F_forf.tbl LamOrn_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:57:53 2021
+# [ok]

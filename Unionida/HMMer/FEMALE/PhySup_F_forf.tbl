@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF687347.1           -          PhySup_F_347         -            1.1e-21   68.4   7.4   1.3e-21   68.3   7.4   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          PhySup_F_347         -            1.3e-21   68.2   0.9   1.5e-21   68.0   0.9   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          PhySup_F_347         -            5.2e-21   66.3   3.1   6.3e-21   66.0   3.1   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          PhySup_F_347         -            5.2e-21   66.3   3.1   6.3e-21   66.0   3.1   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          PhySup_F_347         -              4e-20   63.4   4.9     5e-20   63.1   4.9   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          PhySup_F_347         -              4e-20   63.4   4.9     5e-20   63.1   4.9   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          PhySup_F_347         -            4.8e-20   63.1   4.4     6e-20   62.8   4.4   1.1   1   0   0   1   1   1   1 -
+KF030964.1           -          PhySup_F_347         -            1.4e-18   58.4   4.0   1.6e-18   58.2   4.0   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          PhySup_F_347         -            1.4e-18   58.4   4.0   1.6e-18   58.2   4.0   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          PhySup_F_347         -            1.4e-18   58.4   4.0   1.6e-18   58.2   4.0   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          PhySup_F_347         -            1.4e-18   58.4   3.7   1.6e-18   58.2   3.7   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          PhySup_F_347         -            1.6e-18   58.2   4.4   1.7e-18   58.2   4.4   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          PhySup_F_347         -            2.5e-18   57.6   1.6   2.6e-18   57.5   1.6   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          PhySup_F_347         -            2.8e-18   57.4   7.6   3.3e-18   57.2   7.6   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          PhySup_F_347         -            2.8e-18   57.4   7.6   3.3e-18   57.2   7.6   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          PhySup_F_347         -            2.8e-18   57.4   7.6   3.3e-18   57.2   7.6   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          PhySup_F_347         -            2.8e-18   57.4   7.6   3.3e-18   57.2   7.6   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          PhySup_F_347         -            2.8e-18   57.4   7.6   3.3e-18   57.2   7.6   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          PhySup_F_347         -            2.8e-18   57.4   7.6   3.3e-18   57.2   7.6   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          PhySup_F_347         -            3.2e-18   57.2   4.9   3.6e-18   57.1   4.9   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          PhySup_F_347         -            1.2e-17   55.3   6.6   1.4e-17   55.1   6.6   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          PhySup_F_347         -            4.5e-17   53.5   4.5   5.4e-17   53.3   4.5   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          PhySup_F_347         -            5.3e-17   53.3   4.0   5.8e-17   53.2   4.0   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          PhySup_F_347         -            1.5e-16   51.8   0.3   1.5e-16   51.8   0.3   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          PhySup_F_347         -            1.3e-15   48.8  11.0   1.5e-15   48.6  11.0   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          PhySup_F_347         -            5.2e-14   43.6   2.9   5.8e-14   43.5   2.9   1.0   1   0   0   1   1   1   1 -
+MH319826.1           -          PhySup_F_347         -            8.3e-14   43.0   7.1   9.7e-14   42.7   7.1   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          PhySup_F_347         -            1.9e-08   25.7   3.6   2.3e-08   25.4   3.6   1.2   1   0   0   1   1   1   1 -
+KU873123.1           -          PhySup_F_347         -             0.0002   12.6  14.4    0.0018    9.5  14.4   1.9   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      PhySup_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/PhySup_F_forf.tbl PhySup_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:05:18 2021
+# [ok]

@@ -1,0 +1,43 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF326971.1           -          MegNer_F_313         -            3.5e-32  102.2   8.8   3.8e-32  102.1   8.8   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          MegNer_F_313         -            1.6e-29   93.6   8.5   1.7e-29   93.5   8.5   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          MegNer_F_313         -            3.7e-29   92.4   8.7     4e-29   92.3   8.7   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          MegNer_F_313         -            3.7e-24   76.3   4.5   4.1e-24   76.2   4.5   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          MegNer_F_313         -            3.8e-24   76.3   5.2   4.2e-24   76.1   5.2   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          MegNer_F_313         -            4.2e-24   76.1   8.1   4.7e-24   76.0   8.1   1.1   1   0   0   1   1   1   1 -
+HQ283345.1           -          MegNer_F_313         -            4.2e-24   76.1   8.1   4.7e-24   76.0   8.1   1.1   1   0   0   1   1   1   1 -
+HQ283346.1           -          MegNer_F_313         -            4.2e-24   76.1   8.1   4.7e-24   76.0   8.1   1.1   1   0   0   1   1   1   1 -
+HQ283347.1           -          MegNer_F_313         -            4.2e-24   76.1   8.1   4.7e-24   76.0   8.1   1.1   1   0   0   1   1   1   1 -
+HQ283348.1           -          MegNer_F_313         -            4.2e-24   76.1   8.1   4.7e-24   76.0   8.1   1.1   1   0   0   1   1   1   1 -
+KM272949.1           -          MegNer_F_313         -            4.2e-24   76.1   8.1   4.7e-24   76.0   8.1   1.1   1   0   0   1   1   1   1 -
+KF030964.1           -          MegNer_F_313         -            4.4e-24   76.1   4.7   4.9e-24   75.9   4.7   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          MegNer_F_313         -            4.4e-24   76.1   4.7   4.9e-24   75.9   4.7   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          MegNer_F_313         -            4.4e-24   76.1   4.7   4.9e-24   75.9   4.7   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          MegNer_F_313         -            5.4e-24   75.8   5.4   7.5e-24   75.3   5.4   1.1   1   0   0   1   1   1   1 -
+KY021076.1           -          MegNer_F_313         -            2.1e-23   73.9   5.9   2.9e-23   73.4   5.9   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          MegNer_F_313         -            2.1e-23   73.9   5.9   2.9e-23   73.4   5.9   1.1   1   0   0   1   1   1   1 -
+MF687347.1           -          MegNer_F_313         -            5.7e-23   72.5   7.5   6.7e-23   72.3   7.5   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          MegNer_F_313         -            1.3e-22   71.3   4.6   1.6e-22   71.1   4.6   1.1   1   0   0   1   1   1   1 -
+KY290447.1           -          MegNer_F_313         -            1.3e-22   71.3   4.6   1.6e-22   71.1   4.6   1.1   1   0   0   1   1   1   1 -
+MF687348.1           -          MegNer_F_313         -            2.2e-22   70.6   2.2   2.7e-22   70.3   2.2   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          MegNer_F_313         -            2.7e-22   70.3   5.8   3.1e-22   70.1   5.8   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          MegNer_F_313         -            1.9e-21   67.6   5.5   2.2e-21   67.4   5.5   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          MegNer_F_313         -            6.7e-20   62.6   5.6     8e-20   62.4   5.6   1.2   1   0   0   1   1   1   1 -
+KC848654.1           -          MegNer_F_313         -            1.1e-19   61.9   3.6   1.4e-19   61.6   3.6   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          MegNer_F_313         -            3.8e-19   60.2   0.2     4e-19   60.1   0.2   1.0   1   0   0   1   1   1   1 -
+MH319826.1           -          MegNer_F_313         -            2.8e-17   54.2   8.8   3.3e-17   53.9   8.8   1.1   1   0   0   1   1   1   1 -
+KU873121.1           -          MegNer_F_313         -            3.2e-15   47.5  11.1   3.5e-15   47.4  11.1   1.1   1   0   0   1   1   1   1 -
+KU873123.1           -          MegNer_F_313         -               0.33    2.4  18.5         4   -1.1  18.5   2.0   1   1   0   1   1   1   0 -
+MF326973.1           -          MegNer_F_314         -            2.9e-27   85.4   8.8   2.9e-27   85.4   8.8   2.2   2   0   0   2   2   2   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      MegNer_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/MegNer_F_forf.tbl MegNer_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:02:22 2021
+# [ok]

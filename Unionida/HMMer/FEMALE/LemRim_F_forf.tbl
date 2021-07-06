@@ -1,0 +1,44 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF326971.1           -          LemRim_F_340         -              8e-38  120.2   8.8   8.7e-38  120.1   8.8   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          LemRim_F_340         -              1e-35  113.4   9.7   1.1e-35  113.3   9.7   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          LemRim_F_340         -            2.1e-35  112.4   9.4   2.3e-35  112.3   9.4   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          LemRim_F_340         -              1e-27   87.6   7.4   1.3e-27   87.3   7.4   1.1   1   0   0   1   1   1   1 -
+MF687348.1           -          LemRim_F_340         -            1.9e-24   77.1   2.3   2.1e-24   77.0   2.3   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          LemRim_F_340         -            2.3e-24   76.8   5.4   2.9e-24   76.5   5.4   1.1   1   0   0   1   1   1   1 -
+KY290446.1           -          LemRim_F_340         -            7.9e-24   75.1   4.2   9.2e-24   74.9   4.2   1.1   1   0   0   1   1   1   1 -
+KY290447.1           -          LemRim_F_340         -            7.9e-24   75.1   4.2   9.2e-24   74.9   4.2   1.1   1   0   0   1   1   1   1 -
+KY021076.1           -          LemRim_F_340         -              1e-23   74.7   5.9   1.3e-23   74.4   5.9   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          LemRim_F_340         -              1e-23   74.7   5.9   1.3e-23   74.4   5.9   1.1   1   0   0   1   1   1   1 -
+HQ283344.1           -          LemRim_F_340         -            9.6e-23   71.6   7.3   1.1e-22   71.5   7.3   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          LemRim_F_340         -            9.6e-23   71.6   7.3   1.1e-22   71.5   7.3   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          LemRim_F_340         -            9.6e-23   71.6   7.3   1.1e-22   71.5   7.3   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          LemRim_F_340         -            9.6e-23   71.6   7.3   1.1e-22   71.5   7.3   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          LemRim_F_340         -            9.6e-23   71.6   7.3   1.1e-22   71.5   7.3   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          LemRim_F_340         -            9.6e-23   71.6   7.3   1.1e-22   71.5   7.3   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          LemRim_F_340         -            1.1e-21   68.1   4.6   1.3e-21   67.9   4.6   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          LemRim_F_340         -            1.6e-21   67.7   5.1   1.8e-21   67.5   5.1   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          LemRim_F_340         -            1.8e-21   67.5   4.7   2.1e-21   67.3   4.7   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          LemRim_F_340         -            1.8e-21   67.5   4.7   2.1e-21   67.3   4.7   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          LemRim_F_340         -            1.8e-21   67.5   4.7   2.1e-21   67.3   4.7   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          LemRim_F_340         -            6.2e-21   65.8   5.3   6.7e-21   65.7   5.3   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          LemRim_F_340         -            3.8e-20   63.2   4.1   4.2e-20   63.1   4.1   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          LemRim_F_340         -            4.7e-20   62.9   5.3   5.4e-20   62.8   5.3   1.1   1   0   0   1   1   1   1 -
+KC848654.1           -          LemRim_F_340         -            4.2e-16   50.2   3.1   4.8e-16   50.0   3.1   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          LemRim_F_340         -            1.2e-15   48.8   9.2   1.3e-15   48.6   9.2   1.1   1   0   0   1   1   1   1 -
+HM856636.1           -          LemRim_F_340         -            3.3e-15   47.3   0.2   3.6e-15   47.2   0.2   1.0   1   0   0   1   1   1   1 -
+MH319826.1           -          LemRim_F_340         -            4.2e-11   34.1   8.0   5.2e-11   33.8   8.0   1.1   1   0   0   1   1   1   1 -
+KU873123.1           -          LemRim_F_340         -             0.0044    8.2  14.9      0.39    2.0  14.9   2.0   1   1   0   1   1   1   0 -
+MF326973.1           -          LemRim_F_341         -            4.8e-14   42.8   9.9   4.8e-14   42.8   9.9   2.6   3   0   0   3   3   3   1 -
+KR873102.1           -          LemRim_F_487         -              0.012    7.4   7.6    0.0066    8.2   2.2   2.7   1   1   1   2   2   2   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      LemRim_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/LemRim_F_forf.tbl LemRim_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:00:14 2021
+# [ok]

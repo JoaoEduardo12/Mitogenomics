@@ -1,0 +1,40 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KF030966.1           -          AnoAna_F_EUP_349     -            2.1e-36  115.1   9.1   2.3e-36  114.9   9.1   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          AnoAna_F_EUP_349     -            2.7e-36  114.7   9.3     3e-36  114.6   9.3   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          AnoAna_F_EUP_349     -            2.7e-36  114.7   9.3     3e-36  114.6   9.3   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          AnoAna_F_EUP_349     -            2.7e-36  114.7   9.3     3e-36  114.6   9.3   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          AnoAna_F_EUP_349     -            4.2e-36  114.1   9.3   4.6e-36  114.0   9.3   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          AnoAna_F_EUP_349     -            6.5e-34  107.1   7.2   7.3e-34  106.9   7.2   1.1   1   0   0   1   1   1   1 -
+KY290447.1           -          AnoAna_F_EUP_349     -            6.5e-34  107.1   7.2   7.3e-34  106.9   7.2   1.1   1   0   0   1   1   1   1 -
+HQ283344.1           -          AnoAna_F_EUP_349     -            6.5e-33  103.9  10.9     8e-33  103.6  10.9   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          AnoAna_F_EUP_349     -            6.5e-33  103.9  10.9     8e-33  103.6  10.9   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          AnoAna_F_EUP_349     -            6.5e-33  103.9  10.9     8e-33  103.6  10.9   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          AnoAna_F_EUP_349     -            6.5e-33  103.9  10.9     8e-33  103.6  10.9   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          AnoAna_F_EUP_349     -            6.5e-33  103.9  10.9     8e-33  103.6  10.9   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          AnoAna_F_EUP_349     -            6.5e-33  103.9  10.9     8e-33  103.6  10.9   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          AnoAna_F_EUP_349     -            5.5e-32  100.9   9.1   6.6e-32  100.7   9.1   1.1   1   0   0   1   1   1   1 -
+KY021076.1           -          AnoAna_F_EUP_349     -            8.2e-32  100.4   9.6   9.8e-32  100.1   9.6   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          AnoAna_F_EUP_349     -            8.2e-32  100.4   9.6   9.8e-32  100.1   9.6   1.1   1   0   0   1   1   1   1 -
+MF687348.1           -          AnoAna_F_EUP_349     -            1.2e-31   99.8   3.3   1.5e-31   99.5   3.3   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          AnoAna_F_EUP_349     -            4.2e-31   98.1   7.4     5e-31   97.8   7.4   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          AnoAna_F_EUP_349     -            1.4e-29   93.2   6.7   1.8e-29   92.8   6.7   1.2   1   0   0   1   1   1   1 -
+KR873102.1           -          AnoAna_F_EUP_349     -            2.7e-28   89.1   6.5   3.1e-28   88.9   6.5   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          AnoAna_F_EUP_349     -            1.3e-25   80.4   7.7   1.6e-25   80.2   7.7   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          AnoAna_F_EUP_349     -            2.8e-25   79.4   1.9   3.1e-25   79.3   1.9   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          AnoAna_F_EUP_349     -              3e-24   76.1   7.2   3.5e-24   75.9   7.2   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          AnoAna_F_EUP_349     -            6.6e-23   71.8   6.9   7.6e-23   71.6   6.9   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          AnoAna_F_EUP_349     -            1.4e-20   64.4  10.3   1.6e-20   64.1  10.3   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          AnoAna_F_EUP_349     -            1.8e-18   57.6   6.2   1.9e-18   57.5   5.6   1.4   1   1   0   1   1   1   1 -
+KC848654.1           -          AnoAna_F_EUP_349     -            4.1e-08   24.4   9.1   1.4e-07   22.7   9.1   1.9   1   1   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      AnoAna_F_EUP.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/AnoAna_F_EUP_forf.tbl AnoAna_F_EUP.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:45:44 2021
+# [ok]

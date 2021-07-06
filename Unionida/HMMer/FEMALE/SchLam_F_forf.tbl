@@ -1,0 +1,43 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY290446.1           -          SchLam_F_336         -            1.5e-33  106.4   7.3   1.7e-33  106.3   7.3   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          SchLam_F_336         -            1.5e-33  106.4   7.3   1.7e-33  106.3   7.3   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          SchLam_F_336         -            2.5e-33  105.7   4.5   2.8e-33  105.6   4.5   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          SchLam_F_336         -            5.1e-31   98.3   8.5   5.8e-31   98.1   8.5   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          SchLam_F_336         -            1.5e-30   96.8   9.0   1.7e-30   96.6   9.0   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          SchLam_F_336         -            1.5e-30   96.8   9.0   1.7e-30   96.6   9.0   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          SchLam_F_336         -            2.8e-30   95.9   6.4   2.9e-30   95.8   6.4   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          SchLam_F_336         -            3.1e-30   95.8   7.3   3.4e-30   95.6   7.3   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          SchLam_F_336         -            6.7e-29   91.5   7.6   7.3e-29   91.4   7.6   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          SchLam_F_336         -            1.2e-28   90.7   7.9   1.3e-28   90.6   7.9   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          SchLam_F_336         -            1.2e-28   90.7   7.8   1.3e-28   90.5   7.8   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          SchLam_F_336         -            1.2e-28   90.7   7.8   1.3e-28   90.5   7.8   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          SchLam_F_336         -            1.2e-28   90.7   7.8   1.3e-28   90.5   7.8   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          SchLam_F_336         -            2.1e-28   89.9   9.5   2.4e-28   89.7   9.5   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          SchLam_F_336         -            2.1e-28   89.9   9.5   2.4e-28   89.7   9.5   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          SchLam_F_336         -            2.1e-28   89.9   9.5   2.4e-28   89.7   9.5   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          SchLam_F_336         -            2.1e-28   89.9   9.5   2.4e-28   89.7   9.5   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          SchLam_F_336         -            2.1e-28   89.9   9.5   2.4e-28   89.7   9.5   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          SchLam_F_336         -            2.1e-28   89.9   9.5   2.4e-28   89.7   9.5   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          SchLam_F_336         -            2.9e-25   79.8   8.3   3.2e-25   79.6   8.3   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          SchLam_F_336         -            8.2e-25   78.3   8.9   8.9e-25   78.2   8.9   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          SchLam_F_336         -            1.1e-23   74.7   7.5   1.2e-23   74.6   7.5   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          SchLam_F_336         -              5e-23   72.6   8.6   5.5e-23   72.4   8.6   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          SchLam_F_336         -            6.4e-22   69.0   1.2   7.5e-22   68.8   1.2   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          SchLam_F_336         -            9.5e-20   62.0   5.2   1.1e-19   61.9   5.2   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          SchLam_F_336         -            9.5e-17   52.4  10.0   1.1e-16   52.2  10.0   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          SchLam_F_336         -              9e-16   49.3   6.5     1e-15   49.1   6.5   1.1   1   0   0   1   1   1   1 -
+MH319826.1           -          SchLam_F_336         -            4.7e-12   37.3   8.6   5.8e-12   37.0   8.6   1.1   1   0   0   1   1   1   1 -
+KU873123.1           -          SchLam_F_336         -              0.001   10.5  15.6     0.036    5.5  15.6   2.0   1   1   0   1   1   1   0 -
+MF326973.1           -          SchLam_F_338         -            2.3e-10   31.3   8.8   5.2e-10   30.2   8.8   1.6   1   0   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      SchLam_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/SchLam_F_forf.tbl SchLam_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:09:28 2021
+# [ok]

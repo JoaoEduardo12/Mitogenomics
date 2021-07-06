@@ -1,0 +1,39 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY021078.1           -          CriTru_F_332         -            6.1e-37  116.4  11.2     7e-37  116.3  11.2   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          CriTru_F_332         -              2e-36  114.8  11.7   2.3e-36  114.6  11.7   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          CriTru_F_332         -              2e-36  114.8  11.7   2.3e-36  114.6  11.7   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          CriTru_F_332         -            1.1e-35  112.4   9.6   1.2e-35  112.4   9.6   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          CriTru_F_332         -            1.1e-35  112.4   9.6   1.2e-35  112.4   9.6   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          CriTru_F_332         -            1.7e-35  111.8  11.4   1.9e-35  111.6  11.4   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          CriTru_F_332         -            1.7e-35  111.8  11.4   1.9e-35  111.6  11.4   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          CriTru_F_332         -            1.7e-35  111.8  11.4   1.9e-35  111.6  11.4   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          CriTru_F_332         -            1.7e-35  111.8  11.4   1.9e-35  111.6  11.4   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          CriTru_F_332         -            1.7e-35  111.8  11.4   1.9e-35  111.6  11.4   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          CriTru_F_332         -            1.7e-35  111.8  11.4   1.9e-35  111.6  11.4   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          CriTru_F_332         -            4.7e-34  107.2   7.0     5e-34  107.1   7.0   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          CriTru_F_332         -            8.3e-34  106.4   7.0   8.9e-34  106.3   7.0   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          CriTru_F_332         -            8.3e-34  106.4   7.0   8.9e-34  106.3   7.0   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          CriTru_F_332         -            8.3e-34  106.4   7.0   8.9e-34  106.3   7.0   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          CriTru_F_332         -              2e-33  105.1   7.5   2.2e-33  105.1   7.5   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          CriTru_F_332         -            2.5e-33  104.9   8.6   2.7e-33  104.8   8.6   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          CriTru_F_332         -            1.6e-32  102.3   4.0   1.6e-32  102.3   4.0   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          CriTru_F_332         -            4.8e-31   97.6   8.0   5.2e-31   97.4   8.0   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          CriTru_F_332         -            8.9e-28   87.1   5.6   1.1e-27   86.7   5.6   1.2   1   0   0   1   1   1   1 -
+HM856636.1           -          CriTru_F_332         -            1.8e-23   73.3   1.0   2.1e-23   73.0   1.0   1.1   1   0   0   1   1   1   1 -
+KU559011.1           -          CriTru_F_332         -            5.1e-23   71.8   6.4   5.9e-23   71.6   6.4   1.1   1   0   0   1   1   1   1 -
+MW413895.1           -          CriTru_F_332         -            6.2e-22   68.3   6.7   7.5e-22   68.1   6.7   1.1   1   0   0   1   1   1   1 -
+MF326971.1           -          CriTru_F_332         -            1.2e-21   67.4   5.4   1.4e-21   67.2   5.4   1.2   1   0   0   1   1   1   1 -
+KC848654.1           -          CriTru_F_332         -            1.7e-09   28.5   9.5     4e-09   27.3   9.5   1.6   1   1   0   1   1   1   1 -
+MF326973.1           -          CriTru_F_332         -            7.3e-09   26.4   2.9     1e-08   26.0   2.6   1.4   1   1   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      CriTru_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/CriTru_F_forf.tbl CriTru_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:51:40 2021
+# [ok]

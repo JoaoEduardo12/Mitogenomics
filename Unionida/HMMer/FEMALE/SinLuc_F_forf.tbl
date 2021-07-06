@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HQ283344.1           -          SinLuc_F_353         -            8.9e-34  106.7  11.6     1e-33  106.6  11.6   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          SinLuc_F_353         -            8.9e-34  106.7  11.6     1e-33  106.6  11.6   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          SinLuc_F_353         -            8.9e-34  106.7  11.6     1e-33  106.6  11.6   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          SinLuc_F_353         -            8.9e-34  106.7  11.6     1e-33  106.6  11.6   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          SinLuc_F_353         -            8.9e-34  106.7  11.6     1e-33  106.6  11.6   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          SinLuc_F_353         -            8.9e-34  106.7  11.6     1e-33  106.6  11.6   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          SinLuc_F_353         -            1.7e-31   99.4  11.3   1.9e-31   99.3  11.3   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          SinLuc_F_353         -            1.7e-31   99.4   9.9   1.9e-31   99.3   9.9   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          SinLuc_F_353         -            1.7e-31   99.4   9.9   1.9e-31   99.3   9.9   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          SinLuc_F_353         -            2.4e-31   98.9  11.8   2.6e-31   98.8  11.8   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          SinLuc_F_353         -            2.4e-31   98.9  11.8   2.6e-31   98.8  11.8   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          SinLuc_F_353         -            3.7e-28   88.7   6.8   4.3e-28   88.5   6.8   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          SinLuc_F_353         -            4.5e-28   88.5   7.0   5.2e-28   88.2   7.0   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          SinLuc_F_353         -            4.5e-28   88.5   7.0   5.2e-28   88.2   7.0   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          SinLuc_F_353         -            4.5e-28   88.5   7.0   5.2e-28   88.2   7.0   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          SinLuc_F_353         -            6.3e-28   88.0   9.5   6.8e-28   87.9   9.5   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          SinLuc_F_353         -            7.4e-28   87.8   8.1   8.3e-28   87.6   8.1   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          SinLuc_F_353         -            7.6e-28   87.7   7.3   8.9e-28   87.5   7.3   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          SinLuc_F_353         -              3e-27   85.8   4.9   3.4e-27   85.6   4.9   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          SinLuc_F_353         -            2.1e-26   83.1   8.8   2.3e-26   83.0   8.8   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          SinLuc_F_353         -            4.4e-25   78.9   9.7   4.8e-25   78.8   9.7   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          SinLuc_F_353         -            4.9e-23   72.3   1.0     5e-23   72.3   1.0   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          SinLuc_F_353         -            5.5e-23   72.1   8.7   6.5e-23   71.9   8.7   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          SinLuc_F_353         -            3.2e-22   69.7   7.0   3.9e-22   69.4   7.0   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          SinLuc_F_353         -            2.3e-21   66.9   8.7   2.6e-21   66.8   8.7   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          SinLuc_F_353         -            7.1e-17   52.6  10.4   8.8e-17   52.3  10.4   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          SinLuc_F_353         -            1.3e-16   51.8   7.5   1.5e-16   51.5   7.5   1.2   1   0   0   1   1   1   1 -
+MH319826.1           -          SinLuc_F_353         -            5.5e-15   46.5  10.4   7.1e-15   46.2  10.4   1.2   1   0   0   1   1   1   1 -
+KU873123.1           -          SinLuc_F_353         -             0.0073    7.6  21.7      0.11    3.9  21.7   2.0   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      SinLuc_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/SinLuc_F_forf.tbl SinLuc_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:10:14 2021
+# [ok]

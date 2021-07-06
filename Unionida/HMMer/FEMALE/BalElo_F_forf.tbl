@@ -1,0 +1,44 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HQ283344.1           -          BalElo_F_343         -            1.1e-29   93.6  10.4   1.3e-29   93.3  10.4   1.1   1   0   0   1   1   1   1 -
+HQ283345.1           -          BalElo_F_343         -            1.1e-29   93.6  10.4   1.3e-29   93.3  10.4   1.1   1   0   0   1   1   1   1 -
+HQ283346.1           -          BalElo_F_343         -            1.1e-29   93.6  10.4   1.3e-29   93.3  10.4   1.1   1   0   0   1   1   1   1 -
+HQ283347.1           -          BalElo_F_343         -            1.1e-29   93.6  10.4   1.3e-29   93.3  10.4   1.1   1   0   0   1   1   1   1 -
+HQ283348.1           -          BalElo_F_343         -            1.1e-29   93.6  10.4   1.3e-29   93.3  10.4   1.1   1   0   0   1   1   1   1 -
+KM272949.1           -          BalElo_F_343         -            1.1e-29   93.6  10.4   1.3e-29   93.3  10.4   1.1   1   0   0   1   1   1   1 -
+KY290446.1           -          BalElo_F_343         -              2e-29   92.7   7.2   2.5e-29   92.4   7.2   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          BalElo_F_343         -              2e-29   92.7   7.2   2.5e-29   92.4   7.2   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          BalElo_F_343         -            1.2e-28   90.2   6.5   1.4e-28   90.1   6.5   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          BalElo_F_343         -            1.4e-28   90.0   7.3   1.6e-28   89.8   7.3   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          BalElo_F_343         -            1.5e-28   89.9   6.9   1.7e-28   89.7   6.9   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          BalElo_F_343         -            1.5e-28   89.9   6.9   1.7e-28   89.7   6.9   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          BalElo_F_343         -            1.5e-28   89.9   6.9   1.7e-28   89.7   6.9   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          BalElo_F_343         -            5.7e-28   88.0   7.6   6.2e-28   87.9   7.6   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          BalElo_F_343         -            1.3e-27   86.9   9.5   1.5e-27   86.7   9.5   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          BalElo_F_343         -            1.3e-27   86.9   9.5   1.5e-27   86.7   9.5   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          BalElo_F_343         -            1.3e-27   86.9   9.0   1.5e-27   86.7   9.0   1.1   1   0   0   1   1   1   1 -
+MF687347.1           -          BalElo_F_343         -            1.6e-27   86.6   9.2   1.8e-27   86.5   9.2   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          BalElo_F_343         -              3e-26   82.5   2.2   3.6e-26   82.3   2.2   1.1   1   0   0   1   1   1   1 -
+KR873102.1           -          BalElo_F_343         -            6.5e-25   78.3   6.6   7.1e-25   78.1   6.6   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          BalElo_F_343         -            2.4e-23   73.2   7.1   2.7e-23   73.1   7.1   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          BalElo_F_343         -              1e-21   68.0   8.6   1.2e-21   67.8   8.6   1.1   1   0   0   1   1   1   1 -
+MW413895.1           -          BalElo_F_343         -              7e-21   65.3   8.1   8.4e-21   65.1   8.1   1.1   1   0   0   1   1   1   1 -
+HM856636.1           -          BalElo_F_343         -            1.1e-20   64.8   1.3   1.1e-20   64.7   1.3   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          BalElo_F_343         -            2.1e-20   63.8   8.1   2.5e-20   63.6   8.1   1.1   1   0   0   1   1   1   1 -
+KU873121.1           -          BalElo_F_343         -            1.7e-19   60.9  13.3     2e-19   60.7  13.3   1.1   1   0   0   1   1   1   1 -
+MH319826.1           -          BalElo_F_343         -            1.3e-14   45.3   9.5   1.6e-14   45.0   9.5   1.2   1   0   0   1   1   1   1 -
+MF326973.1           -          BalElo_F_343         -            4.6e-11   33.9   5.1   5.8e-11   33.5   5.1   1.3   1   0   0   1   1   1   1 -
+KU873123.1           -          BalElo_F_343         -            0.00022   12.5  20.4     0.024    5.9  20.4   2.3   1   1   0   1   1   1   0 -
+MH319826.1           -          BalElo_F_489         -            5.8e-22   68.9  18.8   5.8e-22   68.9  18.8   1.7   2   1   0   2   2   2   1 -
+KU873123.1           -          BalElo_F_489         -            4.5e-21   66.1  21.2   4.5e-21   66.1  21.2   1.8   1   1   1   2   2   2   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      BalElo_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/BalElo_F_forf.tbl BalElo_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:49:24 2021
+# [ok]

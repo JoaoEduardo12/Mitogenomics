@@ -1,0 +1,40 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KF030966.1           -          LasCos_F_356         -            5.2e-36  113.7   6.6   5.8e-36  113.6   6.6   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          LasCos_F_356         -            6.4e-36  113.4   6.7   7.1e-36  113.3   6.7   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          LasCos_F_356         -            6.4e-36  113.4   6.7   7.1e-36  113.3   6.7   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          LasCos_F_356         -            6.4e-36  113.4   6.7   7.1e-36  113.3   6.7   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          LasCos_F_356         -            1.8e-35  112.0   7.0     2e-35  111.9   7.0   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          LasCos_F_356         -            3.5e-34  107.8   7.8   3.9e-34  107.7   7.8   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          LasCos_F_356         -            3.5e-34  107.8   7.8   3.9e-34  107.7   7.8   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          LasCos_F_356         -            8.2e-34  106.7   9.7   9.7e-34  106.4   9.7   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          LasCos_F_356         -            8.2e-34  106.7   9.7   9.7e-34  106.4   9.7   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          LasCos_F_356         -            8.2e-34  106.7   9.7   9.7e-34  106.4   9.7   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          LasCos_F_356         -            8.2e-34  106.7   9.7   9.7e-34  106.4   9.7   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          LasCos_F_356         -            8.2e-34  106.7   9.7   9.7e-34  106.4   9.7   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          LasCos_F_356         -            8.2e-34  106.7   9.7   9.7e-34  106.4   9.7   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          LasCos_F_356         -            1.4e-31   99.6   8.9   1.6e-31   99.4   8.9   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          LasCos_F_356         -            1.6e-31   99.4   8.3   1.7e-31   99.2   8.3   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          LasCos_F_356         -            2.8e-31   98.5   9.3   3.2e-31   98.3   9.3   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          LasCos_F_356         -            2.8e-31   98.5   9.3   3.2e-31   98.3   9.3   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          LasCos_F_356         -            3.8e-31   98.1   4.3   4.4e-31   97.9   4.3   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          LasCos_F_356         -            1.5e-28   89.8   6.8   1.8e-28   89.6   6.8   1.2   1   0   0   1   1   1   1 -
+KR873102.1           -          LasCos_F_356         -            2.6e-28   89.0   7.6   2.9e-28   88.9   7.6   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          LasCos_F_356         -            4.7e-27   85.0   1.5   4.9e-27   84.9   1.5   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          LasCos_F_356         -            6.9e-25   78.1   6.0   8.2e-25   77.8   6.0   1.1   1   0   0   1   1   1   1 -
+MW413895.1           -          LasCos_F_356         -            4.9e-24   75.3   7.9   5.8e-24   75.1   7.9   1.1   1   0   0   1   1   1   1 -
+KU559011.1           -          LasCos_F_356         -            1.1e-22   71.0   7.5   1.3e-22   70.8   7.5   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          LasCos_F_356         -            1.3e-14   45.2   3.7   1.3e-14   45.1   3.2   1.4   1   1   0   1   1   1   1 -
+KC848654.1           -          LasCos_F_356         -            7.2e-09   26.7   8.6   1.3e-08   25.9   8.6   1.5   1   1   0   1   1   1   1 -
+KU873121.1           -          LasCos_F_356         -             0.0017    9.5  13.6     0.011    6.9  13.6   2.0   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      LasCos_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/LasCos_F_forf.tbl LasCos_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:59:04 2021
+# [ok]

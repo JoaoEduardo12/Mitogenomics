@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF687347.1           -          TraMis_F_346         -            3.7e-28   89.1   9.2     4e-28   89.0   9.2   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          TraMis_F_346         -            4.1e-25   79.3   4.0   5.4e-25   78.9   4.0   1.1   1   0   0   1   1   1   1 -
+KY290447.1           -          TraMis_F_346         -            4.1e-25   79.3   4.0   5.4e-25   78.9   4.0   1.1   1   0   0   1   1   1   1 -
+MW413895.1           -          TraMis_F_346         -            6.7e-24   75.4   6.4   8.1e-24   75.2   6.4   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          TraMis_F_346         -            7.9e-24   75.2   5.6   9.4e-24   75.0   5.6   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          TraMis_F_346         -            8.5e-24   75.1   4.9     1e-23   74.9   4.9   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          TraMis_F_346         -            1.3e-23   74.5   1.8   1.7e-23   74.1   1.8   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          TraMis_F_346         -            1.6e-23   74.2   5.0   1.9e-23   74.0   5.0   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          TraMis_F_346         -            1.6e-23   74.2   5.0   1.9e-23   74.0   5.0   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          TraMis_F_346         -            1.6e-23   74.2   5.0   1.9e-23   74.0   5.0   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          TraMis_F_346         -            4.3e-23   72.8   7.6   5.2e-23   72.6   7.6   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          TraMis_F_346         -            2.6e-22   70.3   6.3   2.8e-22   70.2   6.3   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          TraMis_F_346         -            2.7e-22   70.3   5.7   3.3e-22   70.0   5.7   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          TraMis_F_346         -            2.7e-22   70.3   5.7   3.3e-22   70.0   5.7   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          TraMis_F_346         -            4.1e-22   69.7   5.2   5.1e-22   69.4   5.2   1.1   1   0   0   1   1   1   1 -
+KR873102.1           -          TraMis_F_346         -              7e-22   68.9   5.7   7.7e-22   68.8   5.7   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          TraMis_F_346         -            2.2e-21   67.3   8.1   2.6e-21   67.1   8.1   1.1   1   0   0   1   1   1   1 -
+HQ283345.1           -          TraMis_F_346         -            2.2e-21   67.3   8.1   2.6e-21   67.1   8.1   1.1   1   0   0   1   1   1   1 -
+HQ283346.1           -          TraMis_F_346         -            2.2e-21   67.3   8.1   2.6e-21   67.1   8.1   1.1   1   0   0   1   1   1   1 -
+HQ283347.1           -          TraMis_F_346         -            2.2e-21   67.3   8.1   2.6e-21   67.1   8.1   1.1   1   0   0   1   1   1   1 -
+HQ283348.1           -          TraMis_F_346         -            2.2e-21   67.3   8.1   2.6e-21   67.1   8.1   1.1   1   0   0   1   1   1   1 -
+KM272949.1           -          TraMis_F_346         -            2.2e-21   67.3   8.1   2.6e-21   67.1   8.1   1.1   1   0   0   1   1   1   1 -
+KU559011.1           -          TraMis_F_346         -            2.7e-21   67.1   7.4   3.2e-21   66.8   7.4   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          TraMis_F_346         -            4.8e-21   66.2   4.7   5.5e-21   66.1   4.7   1.1   1   0   0   1   1   1   1 -
+MH319826.1           -          TraMis_F_346         -            2.5e-19   60.7   9.2     3e-19   60.5   9.2   1.1   1   0   0   1   1   1   1 -
+HM856636.1           -          TraMis_F_346         -              5e-19   59.8   0.1   5.2e-19   59.7   0.1   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          TraMis_F_346         -            6.4e-16   49.8  11.4   6.9e-16   49.7  11.4   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          TraMis_F_346         -            1.7e-13   42.0   5.4   2.1e-13   41.7   5.4   1.2   1   0   0   1   1   1   1 -
+KU873123.1           -          TraMis_F_346         -            1.2e-09   29.6  17.5   3.6e-08   24.9   9.9   2.1   1   1   1   2   2   2   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      TraMis_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/TraMis_F_forf.tbl TraMis_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:12:43 2021
+# [ok]

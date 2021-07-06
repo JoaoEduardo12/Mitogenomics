@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KU873121.1           -          CucNov_F_387         -            2.6e-38  121.5  11.1   2.9e-38  121.3  11.1   1.0   1   0   0   1   1   1   1 -
+KU873123.1           -          CucNov_F_387         -             0.0015    9.6  14.2     0.004    8.2  14.2   1.8   1   1   0   1   1   1   0 -
+MH319826.1           -          CucNov_F_387         -              0.003    8.6  14.6     0.044    4.8  14.6   2.1   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      CucNov_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/CucNov_F_forf.tbl CucNov_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:52:05 2021
+# [ok]

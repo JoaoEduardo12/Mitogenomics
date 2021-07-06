@@ -1,0 +1,37 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY290446.1           -          NodDou_F_359         -            9.1e-40  125.5   6.9     1e-39  125.3   6.9   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          NodDou_F_359         -            9.1e-40  125.5   6.9     1e-39  125.3   6.9   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          NodDou_F_359         -            9.3e-38  119.0   3.5     1e-37  118.9   3.5   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          NodDou_F_359         -            1.2e-37  118.7   7.7   1.4e-37  118.5   7.7   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          NodDou_F_359         -            4.5e-37  116.9   8.3   5.1e-37  116.7   8.3   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          NodDou_F_359         -            4.5e-37  116.9   8.3   5.1e-37  116.7   8.3   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          NodDou_F_359         -              6e-36  113.2   7.6   6.5e-36  113.1   7.6   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          NodDou_F_359         -            8.8e-36  112.7   7.6   9.4e-36  112.6   7.6   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          NodDou_F_359         -            8.8e-36  112.7   7.6   9.4e-36  112.6   7.6   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          NodDou_F_359         -            8.8e-36  112.7   7.6   9.4e-36  112.6   7.6   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          NodDou_F_359         -            1.8e-35  111.7   5.9     2e-35  111.6   5.9   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          NodDou_F_359         -            2.8e-35  111.1   8.0     3e-35  111.0   8.0   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          NodDou_F_359         -            1.2e-33  105.9   4.2   1.5e-33  105.5   4.2   1.2   1   0   0   1   1   1   1 -
+HQ283344.1           -          NodDou_F_359         -            2.7e-33  104.8   7.2   3.1e-33  104.6   7.2   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          NodDou_F_359         -            2.7e-33  104.8   7.2   3.1e-33  104.6   7.2   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          NodDou_F_359         -            2.7e-33  104.8   7.2   3.1e-33  104.6   7.2   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          NodDou_F_359         -            2.7e-33  104.8   7.2   3.1e-33  104.6   7.2   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          NodDou_F_359         -            2.7e-33  104.8   7.2   3.1e-33  104.6   7.2   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          NodDou_F_359         -            2.7e-33  104.8   7.2   3.1e-33  104.6   7.2   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          NodDou_F_359         -            6.6e-33  103.5   4.8   7.2e-33  103.4   4.8   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          NodDou_F_359         -            1.1e-27   86.8   0.9   1.1e-27   86.7   0.9   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          NodDou_F_359         -            9.7e-05   13.3   6.6    0.0015    9.4   6.6   2.1   1   1   0   1   1   1   0 -
+KU873121.1           -          NodDou_F_359         -              0.001   10.0  11.9    0.0051    7.7  11.9   1.9   1   1   0   1   1   1   0 -
+MF326971.1           -          NodDou_F_359         -             0.0013    9.6   6.3    0.0027    8.6   6.3   1.6   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      NodDou_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/NodDou_F_forf.tbl NodDou_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:04:24 2021
+# [ok]

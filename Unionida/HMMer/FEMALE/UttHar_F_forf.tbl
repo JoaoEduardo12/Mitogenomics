@@ -1,0 +1,36 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY290446.1           -          UttHar_F_322         -            4.5e-39  123.5   7.6     5e-39  123.4   7.6   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          UttHar_F_322         -            4.5e-39  123.5   7.6     5e-39  123.4   7.6   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          UttHar_F_322         -              1e-36  116.0   6.6   1.2e-36  115.7   6.6   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          UttHar_F_322         -            1.2e-36  115.7   8.8   1.4e-36  115.5   8.8   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          UttHar_F_322         -            1.7e-36  115.2   6.8     2e-36  115.0   6.8   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          UttHar_F_322         -            1.7e-36  115.2   6.8     2e-36  115.0   6.8   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          UttHar_F_322         -            1.7e-36  115.2   6.8     2e-36  115.0   6.8   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          UttHar_F_322         -            1.7e-36  115.2   9.3     2e-36  115.0   9.3   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          UttHar_F_322         -            1.7e-36  115.2   9.3     2e-36  115.0   9.3   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          UttHar_F_322         -            6.5e-36  113.4   7.2   7.7e-36  113.2   7.2   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          UttHar_F_322         -            2.5e-35  111.5   8.4   2.9e-35  111.3   8.4   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          UttHar_F_322         -            2.5e-35  111.5   8.4   2.9e-35  111.3   8.4   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          UttHar_F_322         -            2.5e-35  111.5   8.4   2.9e-35  111.3   8.4   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          UttHar_F_322         -            2.5e-35  111.5   8.4   2.9e-35  111.3   8.4   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          UttHar_F_322         -            2.5e-35  111.5   8.4   2.9e-35  111.3   8.4   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          UttHar_F_322         -            2.5e-35  111.5   8.4   2.9e-35  111.3   8.4   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          UttHar_F_322         -            3.3e-34  107.9   2.7   3.9e-34  107.7   2.7   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          UttHar_F_322         -            4.2e-34  107.6   6.5   4.6e-34  107.5   6.5   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          UttHar_F_322         -            2.3e-32  102.0   5.7   2.5e-32  101.9   5.7   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          UttHar_F_322         -            1.6e-29   92.9   5.4   2.2e-29   92.5   5.4   1.2   1   0   0   1   1   1   1 -
+HM856636.1           -          UttHar_F_322         -            5.1e-28   88.1   1.1   6.5e-28   87.7   1.1   1.2   1   0   0   1   1   1   1 -
+KC848654.1           -          UttHar_F_322         -            7.3e-11   33.1   4.6   6.6e-10   30.1   2.3   2.1   2   0   0   2   2   2   1 -
+MF326971.1           -          UttHar_F_322         -             0.0018    9.4   8.5     0.005    8.0   8.5   1.8   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      UttHar_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/UttHar_F_forf.tbl UttHar_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:17:49 2021
+# [ok]

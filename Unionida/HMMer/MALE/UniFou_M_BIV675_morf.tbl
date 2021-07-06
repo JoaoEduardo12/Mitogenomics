@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KT326918.1           -          UniFou_M_BIV675_64   -             2e-107  347.6  22.3  2.3e-107  347.4  22.3   1.0   1   0   0   1   1   1   1 -
+MH349357.1           -          UniFou_M_BIV675_64   -           1.4e-102  331.8  21.3  1.6e-102  331.6  21.3   1.0   1   0   0   1   1   1   1 -
+MH349358.1           -          UniFou_M_BIV675_64   -           1.4e-102  331.8  21.3  1.6e-102  331.6  21.3   1.0   1   0   0   1   1   1   1 -
+KY290448.1           -          UniFou_M_BIV675_64   -            2.9e-99  320.9  19.6   3.3e-99  320.8  19.6   1.0   1   0   0   1   1   1   1 -
+KY290449.1           -          UniFou_M_BIV675_64   -            2.9e-99  320.9  19.6   3.3e-99  320.8  19.6   1.0   1   0   0   1   1   1   1 -
+KY290450.1           -          UniFou_M_BIV675_64   -              3e-98  317.6  22.7   3.3e-98  317.5  22.7   1.0   1   0   0   1   1   1   1 -
+KY021075.1           -          UniFou_M_BIV675_64   -            4.4e-94  304.0  16.8     5e-94  303.9  16.8   1.0   1   0   0   1   1   1   1 -
+KY021073.1           -          UniFou_M_BIV675_64   -            7.2e-94  303.3  16.9   8.2e-94  303.2  16.9   1.0   1   0   0   1   1   1   1 -
+KY021074.1           -          UniFou_M_BIV675_64   -            7.2e-94  303.3  16.9   8.2e-94  303.2  16.9   1.0   1   0   0   1   1   1   1 -
+KF030962.1           -          UniFou_M_BIV675_64   -            4.7e-76  245.2  17.2   5.2e-76  245.0  17.2   1.0   1   0   0   1   1   1   1 -
+KF030963.1           -          UniFou_M_BIV675_64   -            6.2e-76  244.8  17.4   6.9e-76  244.6  17.4   1.0   1   0   0   1   1   1   1 -
+HM856635.1           -          UniFou_M_BIV675_64   -              1e-51  165.7  28.9   3.5e-50  160.7  28.9   2.0   1   1   0   1   1   1   1 -
+KC848655.1           -          UniFou_M_BIV675_64   -            9.6e-31   97.2   0.4   1.3e-30   96.8   0.4   1.2   1   0   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      UniFou_M_BIV675.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/MALE/UniFou_M_BIV675_morf.tbl UniFou_M_BIV675.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/MALE
+# Date:            Thu Apr  8 01:24:25 2021
+# [ok]

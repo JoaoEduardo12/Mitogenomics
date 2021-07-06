@@ -1,0 +1,41 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF687347.1           -          SolVie_F_369         -            9.7e-28   87.3   8.0   1.1e-27   87.1   8.0   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          SolVie_F_369         -            2.2e-25   79.8   7.4   2.4e-25   79.6   7.4   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          SolVie_F_369         -            2.2e-25   79.8   7.4   2.4e-25   79.6   7.4   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          SolVie_F_369         -            2.8e-25   79.4   7.5     3e-25   79.3   7.5   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          SolVie_F_369         -            1.6e-24   77.0   6.8   1.8e-24   76.8   6.8   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          SolVie_F_369         -            2.6e-24   76.3   6.6   3.1e-24   76.1   6.6   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          SolVie_F_369         -            3.4e-24   75.9   6.7     4e-24   75.7   6.7   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          SolVie_F_369         -            3.4e-24   75.9   6.7     4e-24   75.7   6.7   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          SolVie_F_369         -            3.4e-24   75.9   6.7     4e-24   75.7   6.7   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          SolVie_F_369         -            4.8e-24   75.5   7.0   5.6e-24   75.2   7.0   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          SolVie_F_369         -            5.3e-24   75.3   8.2   5.7e-24   75.2   8.2   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          SolVie_F_369         -            8.5e-24   74.7   8.7   9.3e-24   74.5   8.7   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          SolVie_F_369         -            8.5e-24   74.7   8.7   9.3e-24   74.5   8.7   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          SolVie_F_369         -            1.8e-23   73.6   9.6   2.1e-23   73.4   9.6   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          SolVie_F_369         -            1.8e-23   73.6   9.6   2.1e-23   73.4   9.6   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          SolVie_F_369         -            1.8e-23   73.6   9.6   2.1e-23   73.4   9.6   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          SolVie_F_369         -            1.8e-23   73.6   9.6   2.1e-23   73.4   9.6   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          SolVie_F_369         -            1.8e-23   73.6   9.6   2.1e-23   73.4   9.6   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          SolVie_F_369         -            1.8e-23   73.6   9.6   2.1e-23   73.4   9.6   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          SolVie_F_369         -            2.9e-23   73.0   6.3   3.1e-23   72.8   6.3   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          SolVie_F_369         -            9.2e-23   71.4   3.0     1e-22   71.2   3.0   1.1   1   0   0   1   1   1   1 -
+KU559011.1           -          SolVie_F_369         -              5e-22   69.0   8.1   5.5e-22   68.9   8.1   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          SolVie_F_369         -            8.3e-22   68.3   7.7   9.1e-22   68.2   7.7   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          SolVie_F_369         -            2.1e-21   67.0   0.8   2.2e-21   66.9   0.8   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          SolVie_F_369         -            2.3e-20   63.6   7.7   2.7e-20   63.4   7.7   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          SolVie_F_369         -            5.6e-16   49.6  12.3   6.1e-16   49.5  12.3   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          SolVie_F_369         -            2.9e-11   34.5   5.0   2.9e-11   34.5   5.0   1.5   1   1   1   2   2   2   1 -
+KU873123.1           -          SolVie_F_369         -              0.041    5.2  19.3      0.45    1.8  19.3   2.1   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      SolVie_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/SolVie_F_forf.tbl SolVie_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:11:50 2021
+# [ok]

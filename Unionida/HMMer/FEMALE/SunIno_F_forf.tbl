@@ -1,0 +1,40 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KC848654.1           -          SunIno_F_338         -            9.4e-25   78.2   7.6     1e-24   78.2   7.6   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          SunIno_F_338         -            1.8e-24   77.3  10.2     2e-24   77.2  10.2   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          SunIno_F_338         -            1.8e-24   77.3  10.2     2e-24   77.2  10.2   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          SunIno_F_338         -            1.8e-24   77.3  10.2     2e-24   77.2  10.2   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          SunIno_F_338         -            1.8e-24   77.3  10.2     2e-24   77.2  10.2   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          SunIno_F_338         -            1.8e-24   77.3  10.2     2e-24   77.2  10.2   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          SunIno_F_338         -            1.8e-24   77.3  10.2     2e-24   77.2  10.2   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          SunIno_F_338         -            1.3e-22   71.4   9.2   1.4e-22   71.3   9.2   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          SunIno_F_338         -            1.6e-21   67.8   8.9   1.8e-21   67.7   8.9   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          SunIno_F_338         -            7.5e-21   65.7   8.0   7.9e-21   65.6   8.0   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          SunIno_F_338         -            1.2e-20   65.0   6.3   1.3e-20   64.9   6.3   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          SunIno_F_338         -            1.3e-20   64.9   7.4   1.4e-20   64.8   7.4   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          SunIno_F_338         -            1.3e-20   64.9   7.4   1.4e-20   64.8   7.4   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          SunIno_F_338         -            1.8e-20   64.4   5.4   2.2e-20   64.2   5.4   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          SunIno_F_338         -            2.3e-20   64.1   6.1   2.6e-20   63.9   6.1   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          SunIno_F_338         -            2.3e-20   64.1   6.1   2.6e-20   63.9   6.1   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          SunIno_F_338         -            2.3e-20   64.1   6.1   2.6e-20   63.9   6.1   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          SunIno_F_338         -            2.3e-20   64.1   6.1   2.7e-20   63.9   6.1   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          SunIno_F_338         -            2.9e-20   63.7   4.3   3.2e-20   63.6   4.3   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          SunIno_F_338         -            1.2e-19   61.7   8.4   1.4e-19   61.5   8.4   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          SunIno_F_338         -            1.3e-19   61.6   6.6   1.5e-19   61.4   6.6   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          SunIno_F_338         -            1.8e-19   61.2   0.5     2e-19   61.1   0.5   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          SunIno_F_338         -            2.5e-19   60.7  13.6   2.8e-19   60.6  13.6   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          SunIno_F_338         -            2.8e-19   60.6   9.0   3.2e-19   60.4   9.0   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          SunIno_F_338         -            2.8e-19   60.6   9.0   3.2e-19   60.4   9.0   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          SunIno_F_338         -            1.5e-14   45.3   4.0   1.7e-14   45.1   4.0   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          SunIno_F_338         -              6e-10   30.4   6.7   6.9e-10   30.2   6.5   1.2   1   1   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      SunIno_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/SunIno_F_forf.tbl SunIno_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:11:57 2021
+# [ok]

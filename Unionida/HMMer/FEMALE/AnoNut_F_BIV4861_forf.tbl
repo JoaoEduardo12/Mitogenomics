@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF687347.1           -          AnoNut_F_BIV4861_329 -              2e-33  106.0   7.9   2.2e-33  105.9   7.9   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          AnoNut_F_BIV4861_329 -            5.2e-31   98.3   7.4   6.1e-31   98.1   7.4   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          AnoNut_F_BIV4861_329 -            5.2e-31   98.3   7.4   6.1e-31   98.1   7.4   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          AnoNut_F_BIV4861_329 -            2.3e-30   96.2   9.7   2.8e-30   95.9   9.7   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          AnoNut_F_BIV4861_329 -            2.3e-30   96.2   9.7   2.8e-30   95.9   9.7   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          AnoNut_F_BIV4861_329 -            2.3e-30   96.2   9.7   2.8e-30   95.9   9.7   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          AnoNut_F_BIV4861_329 -            2.3e-30   96.2   9.7   2.8e-30   95.9   9.7   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          AnoNut_F_BIV4861_329 -            2.3e-30   96.2   9.7   2.8e-30   95.9   9.7   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          AnoNut_F_BIV4861_329 -            2.3e-30   96.2   9.7   2.8e-30   95.9   9.7   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          AnoNut_F_BIV4861_329 -            4.2e-30   95.4   9.7   4.6e-30   95.2   9.7   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          AnoNut_F_BIV4861_329 -            4.2e-30   95.4   9.7   4.6e-30   95.2   9.7   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          AnoNut_F_BIV4861_329 -            5.5e-30   95.0   9.3   6.2e-30   94.8   9.3   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          AnoNut_F_BIV4861_329 -            2.1e-28   89.9   6.8   2.5e-28   89.7   6.8   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          AnoNut_F_BIV4861_329 -              3e-28   89.4   7.3   3.5e-28   89.2   7.3   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          AnoNut_F_BIV4861_329 -            3.4e-28   89.2   3.2   4.2e-28   88.9   3.2   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          AnoNut_F_BIV4861_329 -            3.5e-28   89.2   7.1   4.1e-28   89.0   7.1   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          AnoNut_F_BIV4861_329 -            3.5e-28   89.2   7.1   4.1e-28   89.0   7.1   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          AnoNut_F_BIV4861_329 -            3.5e-28   89.2   7.1   4.1e-28   89.0   7.1   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          AnoNut_F_BIV4861_329 -            6.8e-28   88.3   7.8   7.6e-28   88.1   7.8   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          AnoNut_F_BIV4861_329 -            1.7e-25   80.6   7.3   1.9e-25   80.4   7.3   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          AnoNut_F_BIV4861_329 -              5e-23   72.6   1.2   5.5e-23   72.5   1.2   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          AnoNut_F_BIV4861_329 -            7.9e-22   68.8   6.6   8.9e-22   68.6   6.6   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          AnoNut_F_BIV4861_329 -            3.7e-20   63.4   6.8   4.1e-20   63.3   6.8   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          AnoNut_F_BIV4861_329 -            5.2e-20   62.9   7.1   5.9e-20   62.7   7.1   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          AnoNut_F_BIV4861_329 -            2.3e-18   57.6   5.2   2.5e-18   57.5   5.2   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          AnoNut_F_BIV4861_329 -            5.1e-17   53.3  12.1   7.9e-17   52.7  12.1   1.3   1   1   0   1   1   1   1 -
+MH319826.1           -          AnoNut_F_BIV4861_329 -            2.4e-13   41.5   7.7     3e-13   41.2   7.7   1.2   1   0   0   1   1   1   1 -
+MF326973.1           -          AnoNut_F_BIV4861_329 -            1.7e-11   35.5   6.1   1.9e-11   35.4   5.9   1.2   1   1   0   1   1   1   1 -
+KU873123.1           -          AnoNut_F_BIV4861_329 -             0.0015   10.0  13.3    0.0044    8.5  13.3   1.7   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      AnoNut_F_BIV4861.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/AnoNut_F_BIV4861_forf.tbl AnoNut_F_BIV4861.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:48:17 2021
+# [ok]

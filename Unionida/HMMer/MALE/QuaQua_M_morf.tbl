@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KT326918.1           -          QuaQua_M_314         -            7.8e-45  142.1   5.9   7.8e-45  142.1   5.9   2.5   1   1   1   2   2   1   1 -
+MH349357.1           -          QuaQua_M_314         -            7.1e-43  135.8   5.9   7.1e-43  135.8   5.9   2.5   1   1   1   2   2   1   1 -
+MH349358.1           -          QuaQua_M_314         -            7.1e-43  135.8   5.9   7.1e-43  135.8   5.9   2.5   1   1   1   2   2   1   1 -
+KY290448.1           -          QuaQua_M_314         -            7.8e-43  135.7   5.4   7.8e-43  135.7   5.4   2.2   1   1   1   2   2   2   1 -
+KY290449.1           -          QuaQua_M_314         -            7.8e-43  135.7   5.4   7.8e-43  135.7   5.4   2.2   1   1   1   2   2   2   1 -
+KY290450.1           -          QuaQua_M_314         -            1.4e-41  131.6   6.3   1.4e-41  131.6   6.3   2.2   1   1   0   2   2   2   1 -
+KY021075.1           -          QuaQua_M_314         -            2.4e-41  130.9   6.1   2.4e-41  130.9   6.1   2.5   1   1   1   2   2   2   1 -
+KY021073.1           -          QuaQua_M_314         -            2.4e-41  130.8   6.1   2.4e-41  130.8   6.1   2.5   1   1   1   2   2   2   1 -
+KY021074.1           -          QuaQua_M_314         -            2.4e-41  130.8   6.1   2.4e-41  130.8   6.1   2.5   1   1   1   2   2   2   1 -
+KF030963.1           -          QuaQua_M_314         -            1.2e-37  118.9   1.1   1.2e-37  118.9   1.1   2.2   1   1   1   2   2   1   1 -
+KF030962.1           -          QuaQua_M_314         -            1.3e-37  118.8   1.0   1.3e-37  118.8   1.0   2.2   1   1   1   2   2   1   1 -
+HM856635.1           -          QuaQua_M_314         -            5.5e-36  113.6   6.5   5.5e-36  113.6   6.5   2.5   1   1   2   3   3   3   1 -
+KC848655.1           -          QuaQua_M_314         -            2.4e-32  101.9   2.5     3e-32  101.5   2.5   1.1   1   0   0   1   1   1   1 -
+MF326974.1           -          QuaQua_M_314         -            1.6e-29   92.7   9.6   1.6e-29   92.7   9.6   3.6   1   1   2   3   3   2   1 -
+KU559010.1           -          QuaQua_M_314         -            1.3e-28   89.8   8.3   1.3e-28   89.8   8.3   2.6   1   1   2   3   3   2   1 -
+MF326972.1           -          QuaQua_M_314         -            1.7e-28   89.5  10.4   1.7e-28   89.5  10.4   3.5   1   1   2   3   3   2   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      QuaQua_M.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/MALE/QuaQua_M_morf.tbl QuaQua_M.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/MALE
+# Date:            Thu Apr  8 01:23:00 2021
+# [ok]

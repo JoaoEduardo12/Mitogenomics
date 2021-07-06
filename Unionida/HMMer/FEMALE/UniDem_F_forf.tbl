@@ -1,0 +1,39 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY290446.1           -          UniDem_F_335         -            3.3e-33  104.9   7.3   3.7e-33  104.7   7.3   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          UniDem_F_335         -            3.3e-33  104.9   7.3   3.7e-33  104.7   7.3   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          UniDem_F_335         -            1.9e-32  102.4   6.7   2.2e-32  102.2   6.7   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          UniDem_F_335         -            1.9e-32  102.4   6.7   2.2e-32  102.2   6.7   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          UniDem_F_335         -            1.9e-32  102.4   6.7   2.2e-32  102.2   6.7   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          UniDem_F_335         -            2.4e-32  102.1   6.6   2.8e-32  101.9   6.6   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          UniDem_F_335         -            6.4e-32  100.8   6.8   7.4e-32  100.6   6.8   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          UniDem_F_335         -            1.9e-31   99.2   8.4   2.2e-31   99.0   8.4   1.1   1   0   0   1   1   1   1 -
+KT326917.1           -          UniDem_F_335         -            3.3e-31   98.5   8.2   3.7e-31   98.3   8.2   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          UniDem_F_335         -            8.6e-31   97.1   8.8   9.9e-31   97.0   8.8   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          UniDem_F_335         -            8.6e-31   97.1   8.8   9.9e-31   97.0   8.8   1.1   1   0   0   1   1   1   1 -
+KR873102.1           -          UniDem_F_335         -            5.4e-29   91.4   7.7   6.1e-29   91.2   7.7   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          UniDem_F_335         -            3.8e-28   88.7   3.9   4.7e-28   88.4   3.9   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          UniDem_F_335         -            1.1e-27   87.2   8.5   1.3e-27   87.0   8.5   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          UniDem_F_335         -            1.1e-27   87.2   8.5   1.3e-27   87.0   8.5   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          UniDem_F_335         -            1.1e-27   87.2   8.5   1.3e-27   87.0   8.5   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          UniDem_F_335         -            1.1e-27   87.2   8.5   1.3e-27   87.0   8.5   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          UniDem_F_335         -            1.1e-27   87.2   8.5   1.3e-27   87.0   8.5   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          UniDem_F_335         -            1.1e-27   87.2   8.5   1.3e-27   87.0   8.5   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          UniDem_F_335         -            2.1e-27   86.3   5.9   2.6e-27   86.0   5.9   1.1   1   0   0   1   1   1   1 -
+MF326971.1           -          UniDem_F_335         -              3e-26   82.6   6.0   3.5e-26   82.4   6.0   1.1   1   0   0   1   1   1   1 -
+MW413895.1           -          UniDem_F_335         -            1.6e-25   80.3   8.1   1.8e-25   80.1   8.1   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          UniDem_F_335         -            1.7e-24   77.0   8.0   1.9e-24   76.8   8.0   1.1   1   0   0   1   1   1   1 -
+HM856636.1           -          UniDem_F_335         -            1.5e-20   64.4   0.7   1.5e-20   64.3   0.7   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          UniDem_F_335         -            6.7e-16   49.4   5.5   8.3e-16   49.1   5.5   1.3   1   0   0   1   1   1   1 -
+KC848654.1           -          UniDem_F_335         -             0.0021    9.4   9.7    0.0053    8.1   9.7   1.7   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      UniDem_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/UniDem_F_forf.tbl UniDem_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:13:52 2021
+# [ok]

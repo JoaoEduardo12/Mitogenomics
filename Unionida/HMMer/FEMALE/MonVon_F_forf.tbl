@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF326973.1           -          MonVon_F_317         -            1.9e-27   86.1   7.2   3.1e-27   85.4   7.2   1.4   1   0   0   1   1   1   1 -
+MF687347.1           -          MonVon_F_331         -            4.4e-25   79.6   6.1   4.6e-25   79.5   6.1   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          MonVon_F_331         -            5.6e-25   79.2   8.2     6e-25   79.1   8.2   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          MonVon_F_331         -            8.7e-25   78.6   8.7   9.3e-25   78.5   8.7   1.0   1   0   0   1   1   1   1 -
+KY021077.1           -          MonVon_F_331         -            8.7e-25   78.6   8.7   9.3e-25   78.5   8.7   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          MonVon_F_331         -            1.2e-23   74.9   3.4   1.4e-23   74.7   3.4   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          MonVon_F_331         -            8.7e-23   72.1   8.5   9.2e-23   72.0   8.5   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          MonVon_F_331         -            8.7e-23   72.1   8.5   9.2e-23   72.0   8.5   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          MonVon_F_331         -            8.7e-23   72.1   8.5   9.2e-23   72.0   8.5   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          MonVon_F_331         -            8.7e-23   72.1   8.5   9.2e-23   72.0   8.5   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          MonVon_F_331         -            8.7e-23   72.1   8.5   9.2e-23   72.0   8.5   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          MonVon_F_331         -            8.7e-23   72.1   8.5   9.2e-23   72.0   8.5   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          MonVon_F_331         -            1.5e-22   71.4   7.3   1.6e-22   71.3   7.3   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          MonVon_F_331         -            1.5e-22   71.4   7.3   1.6e-22   71.3   7.3   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          MonVon_F_331         -            4.3e-21   66.6   6.7   4.8e-21   66.5   6.7   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          MonVon_F_331         -            8.4e-21   65.7   4.7   8.7e-21   65.6   4.7   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          MonVon_F_331         -            1.6e-20   64.8   4.2   1.7e-20   64.7   4.2   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          MonVon_F_331         -            1.8e-20   64.6   4.3   1.9e-20   64.5   4.3   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          MonVon_F_331         -            1.8e-20   64.6   4.3   1.9e-20   64.5   4.3   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          MonVon_F_331         -            1.8e-20   64.6   4.3   1.9e-20   64.5   4.3   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          MonVon_F_331         -            2.2e-20   64.3   7.3   2.4e-20   64.2   7.3   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          MonVon_F_331         -            4.9e-19   60.0   0.4   5.2e-19   59.9   0.4   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          MonVon_F_331         -            3.9e-18   57.0   6.4   4.2e-18   56.9   6.4   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          MonVon_F_331         -            3.1e-16   50.9   6.6   3.3e-16   50.8   6.6   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          MonVon_F_331         -            3.7e-16   50.6   6.6   4.2e-16   50.4   6.6   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          MonVon_F_331         -            2.3e-15   48.1   6.8   2.5e-15   47.9   6.8   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          MonVon_F_331         -            6.8e-13   40.0   8.3   7.6e-13   39.9   8.3   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          MonVon_F_331         -            1.4e-06   19.6   3.9   1.8e-06   19.2   3.9   1.2   1   0   0   1   1   1   1 -
+MF326973.1           -          MonVon_F_526         -            1.2e-15   48.3   3.2   1.2e-15   48.3   3.2   1.9   2   0   0   2   2   2   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      MonVon_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/MonVon_F_forf.tbl MonVon_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:03:00 2021
+# [ok]

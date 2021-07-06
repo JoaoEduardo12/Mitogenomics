@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KU873124.1           -          PseMrc_M_62          -            2.2e-30   95.9  13.2     3e-30   95.5  13.2   1.3   1   1   0   1   1   1   1 -
+KU873124.1           -          PseMrc_M_71          -            3.5e-59  188.5  15.1   3.8e-59  188.4  15.1   1.0   1   0   0   1   1   1   1 -
+KC848655.1           -          PseMrc_M_71          -             0.0046    7.4  10.6      0.01    6.2   9.9   1.9   1   1   1   2   2   2   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      PseMrc_M.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/MALE/PseMrc_M_morf.tbl PseMrc_M.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/MALE
+# Date:            Thu Apr  8 01:22:37 2021
+# [ok]

@@ -1,0 +1,43 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF326971.1           -          PtyGre_F_343         -            2.6e-40  128.6   8.1   2.8e-40  128.5   8.1   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          PtyGre_F_343         -            2.2e-36  115.9   7.4   2.4e-36  115.8   7.4   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          PtyGre_F_343         -            4.2e-35  111.7   6.8   4.6e-35  111.6   6.8   1.0   1   0   0   1   1   1   1 -
+MF326973.1           -          PtyGre_F_343         -            4.8e-28   88.9   7.5     6e-28   88.6   7.5   1.1   1   0   0   1   1   1   1 -
+MF687348.1           -          PtyGre_F_343         -            2.5e-24   76.9   1.2   2.8e-24   76.7   1.2   1.0   1   0   0   1   1   1   1 -
+KY290446.1           -          PtyGre_F_343         -            4.3e-22   69.7   3.7     5e-22   69.4   3.7   1.1   1   0   0   1   1   1   1 -
+KY290447.1           -          PtyGre_F_343         -            4.3e-22   69.7   3.7     5e-22   69.4   3.7   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          PtyGre_F_343         -            1.4e-21   67.9   4.6   1.7e-21   67.7   4.6   1.1   1   0   0   1   1   1   1 -
+KY021076.1           -          PtyGre_F_343         -            3.5e-21   66.7   5.2   4.2e-21   66.5   5.2   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          PtyGre_F_343         -            3.5e-21   66.7   5.2   4.2e-21   66.5   5.2   1.1   1   0   0   1   1   1   1 -
+KF030966.1           -          PtyGre_F_343         -            4.6e-21   66.3   4.1   5.2e-21   66.2   4.1   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          PtyGre_F_343         -            5.6e-21   66.0   4.2   6.3e-21   65.9   4.2   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          PtyGre_F_343         -            5.6e-21   66.0   4.2   6.3e-21   65.9   4.2   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          PtyGre_F_343         -            5.6e-21   66.0   4.2   6.3e-21   65.9   4.2   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          PtyGre_F_343         -            8.5e-21   65.4   4.9   9.6e-21   65.3   4.9   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          PtyGre_F_343         -            6.5e-20   62.6   4.7   7.2e-20   62.5   4.7   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          PtyGre_F_343         -            2.5e-19   60.7   6.2     3e-19   60.4   6.2   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          PtyGre_F_343         -              6e-19   59.5   6.5   6.9e-19   59.3   6.5   1.0   1   0   0   1   1   1   1 -
+HQ283345.1           -          PtyGre_F_343         -              6e-19   59.5   6.5   6.9e-19   59.3   6.5   1.0   1   0   0   1   1   1   1 -
+HQ283346.1           -          PtyGre_F_343         -              6e-19   59.5   6.5   6.9e-19   59.3   6.5   1.0   1   0   0   1   1   1   1 -
+HQ283347.1           -          PtyGre_F_343         -              6e-19   59.5   6.5   6.9e-19   59.3   6.5   1.0   1   0   0   1   1   1   1 -
+HQ283348.1           -          PtyGre_F_343         -              6e-19   59.5   6.5   6.9e-19   59.3   6.5   1.0   1   0   0   1   1   1   1 -
+KM272949.1           -          PtyGre_F_343         -              6e-19   59.5   6.5   6.9e-19   59.3   6.5   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          PtyGre_F_343         -            6.7e-19   59.3   3.3   7.8e-19   59.1   3.3   1.0   1   0   0   1   1   1   1 -
+HM856636.1           -          PtyGre_F_343         -              3e-15   47.5   0.1   3.4e-15   47.3   0.1   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          PtyGre_F_343         -            7.2e-15   46.3   1.6   8.7e-15   46.0   1.6   1.0   1   0   0   1   1   1   1 -
+KU873121.1           -          PtyGre_F_343         -            5.4e-14   43.4   8.9   6.2e-14   43.2   8.9   1.1   1   0   0   1   1   1   1 -
+MH319826.1           -          PtyGre_F_343         -            2.5e-12   38.1   6.9   2.7e-12   37.9   6.9   1.1   1   0   0   1   1   1   1 -
+KU873123.1           -          PtyGre_F_343         -              0.025    5.7  14.6      0.11    3.6  14.6   1.9   1   1   0   1   1   1   0 -
+MF326973.1           -          PtyGre_F_344         -            2.7e-28   89.1   8.9   2.7e-28   89.1   8.9   1.7   2   0   0   2   2   2   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      PtyGre_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/PtyGre_F_forf.tbl PtyGre_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:08:05 2021
+# [ok]

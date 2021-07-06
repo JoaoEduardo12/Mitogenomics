@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KY290446.1           -          AlaUnd_F_342         -            6.1e-34  107.2   8.4   7.1e-34  106.9   8.4   1.0   1   0   0   1   1   1   1 -
+KY290447.1           -          AlaUnd_F_342         -            6.1e-34  107.2   8.4   7.1e-34  106.9   8.4   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          AlaUnd_F_342         -            1.2e-33  106.2   7.6   1.5e-33  106.0   7.6   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          AlaUnd_F_342         -            2.3e-33  105.3   7.9   2.7e-33  105.1   7.9   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          AlaUnd_F_342         -            2.8e-33  105.0   7.7   3.3e-33  104.8   7.7   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          AlaUnd_F_342         -            2.8e-33  105.0   7.7   3.3e-33  104.8   7.7   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          AlaUnd_F_342         -            2.8e-33  105.0   7.7   3.3e-33  104.8   7.7   1.0   1   0   0   1   1   1   1 -
+KY021076.1           -          AlaUnd_F_342         -              2e-32  102.3  10.5   2.4e-32  102.0  10.5   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          AlaUnd_F_342         -              2e-32  102.3  10.5   2.4e-32  102.0  10.5   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          AlaUnd_F_342         -            2.2e-32  102.1  10.0   2.7e-32  101.9  10.0   1.1   1   0   0   1   1   1   1 -
+HQ283344.1           -          AlaUnd_F_342         -              2e-31   99.1  10.9   2.4e-31   98.9  10.9   1.1   1   0   0   1   1   1   1 -
+HQ283345.1           -          AlaUnd_F_342         -              2e-31   99.1  10.9   2.4e-31   98.9  10.9   1.1   1   0   0   1   1   1   1 -
+HQ283346.1           -          AlaUnd_F_342         -              2e-31   99.1  10.9   2.4e-31   98.9  10.9   1.1   1   0   0   1   1   1   1 -
+HQ283347.1           -          AlaUnd_F_342         -              2e-31   99.1  10.9   2.4e-31   98.9  10.9   1.1   1   0   0   1   1   1   1 -
+HQ283348.1           -          AlaUnd_F_342         -              2e-31   99.1  10.9   2.4e-31   98.9  10.9   1.1   1   0   0   1   1   1   1 -
+KM272949.1           -          AlaUnd_F_342         -              2e-31   99.1  10.9   2.4e-31   98.9  10.9   1.1   1   0   0   1   1   1   1 -
+KT326917.1           -          AlaUnd_F_342         -            3.6e-31   98.3   8.5   4.1e-31   98.1   8.5   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          AlaUnd_F_342         -            6.2e-31   97.5   4.4   7.2e-31   97.3   4.4   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          AlaUnd_F_342         -            1.8e-29   92.8   8.8     2e-29   92.7   8.8   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          AlaUnd_F_342         -              3e-26   82.5   8.7   3.8e-26   82.2   8.6   1.2   1   1   0   1   1   1   1 -
+HM856636.1           -          AlaUnd_F_342         -            3.3e-23   72.8   6.2   6.1e-23   71.9   6.2   1.4   1   1   0   1   1   1   1 -
+MF326971.1           -          AlaUnd_F_342         -            7.2e-23   71.7   7.3   8.5e-23   71.4   7.3   1.1   1   0   0   1   1   1   1 -
+MW413895.1           -          AlaUnd_F_342         -            3.7e-22   69.4   7.8   4.6e-22   69.1   7.8   1.1   1   0   0   1   1   1   1 -
+KC848654.1           -          AlaUnd_F_342         -            7.9e-22   68.4   6.9   9.6e-22   68.1   6.9   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          AlaUnd_F_342         -            2.4e-21   66.8   8.0   2.9e-21   66.6   8.0   1.1   1   0   0   1   1   1   1 -
+MH319826.1           -          AlaUnd_F_342         -            4.8e-17   53.0   8.9   4.8e-17   53.0   8.9   1.6   1   1   1   2   2   2   1 -
+MF326973.1           -          AlaUnd_F_342         -            5.7e-13   40.0   4.8   7.4e-13   39.6   4.6   1.4   1   1   0   1   1   1   1 -
+KU873121.1           -          AlaUnd_F_342         -            0.00065   10.9  18.3    0.0046    8.2  18.3   2.0   1   1   0   1   1   1   0 -
+KU873123.1           -          AlaUnd_F_342         -               0.16    3.3  20.3        11   -2.7  20.3   2.3   1   1   0   1   1   0   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      AlaUnd_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/AlaUnd_F_forf.tbl AlaUnd_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:44:33 2021
+# [ok]

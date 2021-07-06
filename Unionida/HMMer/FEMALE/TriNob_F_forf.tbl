@@ -1,0 +1,41 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KU559011.1           -          TriNob_340           -              4e-30   94.8  10.4   4.9e-30   94.5  10.4   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          TriNob_340           -            6.9e-30   94.0   9.3   8.7e-30   93.7   9.3   1.0   1   0   0   1   1   1   1 -
+MF326971.1           -          TriNob_340           -            1.5e-29   93.0   8.2   1.8e-29   92.6   8.2   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          TriNob_340           -            3.1e-26   82.3   9.9   3.9e-26   82.0   9.9   1.1   1   0   0   1   1   1   1 -
+HQ283345.1           -          TriNob_340           -            3.1e-26   82.3   9.9   3.9e-26   82.0   9.9   1.1   1   0   0   1   1   1   1 -
+HQ283346.1           -          TriNob_340           -            3.1e-26   82.3   9.9   3.9e-26   82.0   9.9   1.1   1   0   0   1   1   1   1 -
+HQ283347.1           -          TriNob_340           -            3.1e-26   82.3   9.9   3.9e-26   82.0   9.9   1.1   1   0   0   1   1   1   1 -
+HQ283348.1           -          TriNob_340           -            3.1e-26   82.3   9.9   3.9e-26   82.0   9.9   1.1   1   0   0   1   1   1   1 -
+KM272949.1           -          TriNob_340           -            3.1e-26   82.3   9.9   3.9e-26   82.0   9.9   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          TriNob_340           -            4.2e-26   81.9   8.4   5.6e-26   81.5   8.4   1.2   1   0   0   1   1   1   1 -
+KY021076.1           -          TriNob_340           -            9.3e-26   80.8   9.0   1.2e-25   80.4   9.0   1.2   1   0   0   1   1   1   1 -
+KY021077.1           -          TriNob_340           -            9.3e-26   80.8   9.0   1.2e-25   80.4   9.0   1.2   1   0   0   1   1   1   1 -
+KY290446.1           -          TriNob_340           -            9.6e-25   77.5   7.6   1.1e-24   77.3   7.6   1.2   1   0   0   1   1   1   1 -
+KY290447.1           -          TriNob_340           -            9.6e-25   77.5   7.6   1.1e-24   77.3   7.6   1.2   1   0   0   1   1   1   1 -
+KF030964.1           -          TriNob_340           -              2e-24   76.5   7.1   2.3e-24   76.3   7.1   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          TriNob_340           -              2e-24   76.5   7.1   2.3e-24   76.3   7.1   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          TriNob_340           -              2e-24   76.5   7.1   2.3e-24   76.3   7.1   1.0   1   0   0   1   1   1   1 -
+KR873102.1           -          TriNob_340           -            2.3e-24   76.3   7.4     3e-24   76.0   7.4   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          TriNob_340           -            3.6e-24   75.7   7.0   4.2e-24   75.5   7.0   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          TriNob_340           -            5.1e-24   75.2   7.5   5.9e-24   75.0   7.5   1.0   1   0   0   1   1   1   1 -
+KT326917.1           -          TriNob_340           -            2.5e-23   73.0   7.7   2.8e-23   72.8   7.7   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          TriNob_340           -              9e-23   71.2   8.4   1.1e-22   70.9   8.4   1.1   1   0   0   1   1   1   1 -
+MF687348.1           -          TriNob_340           -            2.8e-22   69.6   4.0   3.2e-22   69.5   4.0   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          TriNob_340           -            5.5e-22   68.7   5.5   6.7e-22   68.4   5.5   1.1   1   0   0   1   1   1   1 -
+MH319826.1           -          TriNob_340           -            6.1e-18   55.7   8.9   8.8e-18   55.2   8.9   1.3   1   0   0   1   1   1   1 -
+MF326973.1           -          TriNob_340           -            1.4e-17   54.5   4.9   1.9e-17   54.1   4.9   1.2   1   0   0   1   1   1   1 -
+HM856636.1           -          TriNob_340           -            1.4e-16   51.4   0.4   1.6e-16   51.2   0.4   1.2   1   0   0   1   1   1   1 -
+KU873123.1           -          TriNob_340           -               0.51    1.5  21.2        13   -3.0  21.2   2.1   1   1   0   1   1   0   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      TriNob_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/TriNob_F_forf.tbl TriNob_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:12:50 2021
+# [ok]

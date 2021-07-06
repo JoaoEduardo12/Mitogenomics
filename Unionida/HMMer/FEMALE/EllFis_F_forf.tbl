@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KU559011.1           -          EllFis_F_314         -            7.5e-43  136.7  16.4   1.3e-41  132.7  16.4   1.9   1   1   0   1   1   1   1 -
+MW413895.1           -          EllFis_F_314         -            1.5e-41  132.5  16.3   7.2e-41  130.3  16.3   1.8   1   1   0   1   1   1   1 -
+MF326971.1           -          EllFis_F_314         -            3.4e-41  131.4  18.8     1e-39  126.6  18.8   2.0   1   1   0   1   1   1   1 -
+MF326973.1           -          EllFis_F_314         -            1.1e-31  100.7   4.9   1.2e-31  100.4   4.9   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          EllFis_F_315         -            1.3e-19   60.9   8.4   3.6e-19   59.4   8.4   1.8   1   0   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      EllFis_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/EllFis_F_forf.tbl EllFis_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:53:43 2021
+# [ok]

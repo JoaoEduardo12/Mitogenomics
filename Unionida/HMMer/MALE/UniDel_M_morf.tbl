@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KT326918.1           -          UniDel_M_58          -           3.8e-109  353.3  22.1  4.2e-109  353.2  22.1   1.0   1   0   0   1   1   1   1 -
+MH349357.1           -          UniDel_M_58          -           1.9e-102  331.4  21.4  2.1e-102  331.3  21.4   1.0   1   0   0   1   1   1   1 -
+MH349358.1           -          UniDel_M_58          -           1.9e-102  331.4  21.4  2.1e-102  331.3  21.4   1.0   1   0   0   1   1   1   1 -
+KY290448.1           -          UniDel_M_58          -            4.2e-97  314.0  20.2   4.6e-97  313.9  20.2   1.0   1   0   0   1   1   1   1 -
+KY290449.1           -          UniDel_M_58          -            4.2e-97  314.0  20.2   4.6e-97  313.9  20.2   1.0   1   0   0   1   1   1   1 -
+KY290450.1           -          UniDel_M_58          -            1.8e-95  308.7  23.3     2e-95  308.5  23.3   1.0   1   0   0   1   1   1   1 -
+KY021075.1           -          UniDel_M_58          -            1.3e-90  292.8  17.3   1.4e-90  292.7  17.3   1.0   1   0   0   1   1   1   1 -
+KY021073.1           -          UniDel_M_58          -            2.2e-90  292.1  17.5   2.4e-90  291.9  17.5   1.0   1   0   0   1   1   1   1 -
+KY021074.1           -          UniDel_M_58          -            2.2e-90  292.1  17.5   2.4e-90  291.9  17.5   1.0   1   0   0   1   1   1   1 -
+KF030962.1           -          UniDel_M_58          -            3.6e-77  248.9  18.0     4e-77  248.7  18.0   1.0   1   0   0   1   1   1   1 -
+KF030963.1           -          UniDel_M_58          -            4.6e-77  248.5  18.1   5.1e-77  248.4  18.1   1.0   1   0   0   1   1   1   1 -
+HM856635.1           -          UniDel_M_58          -            5.6e-74  238.5  15.4   6.9e-74  238.2  15.4   1.0   1   0   0   1   1   1   1 -
+KC848655.1           -          UniDel_M_58          -            3.3e-33  105.3   1.2   3.7e-33  105.1   1.2   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      UniDel_M.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/MALE/UniDel_M_morf.tbl UniDel_M.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/MALE
+# Date:            Thu Apr  8 01:24:09 2021
+# [ok]

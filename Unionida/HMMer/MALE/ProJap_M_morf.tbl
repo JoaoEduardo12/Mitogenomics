@@ -1,0 +1,28 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KC848655.1           -          ProJap_M_57          -            9.4e-49  154.9   5.6   1.1e-48  154.6   5.6   1.0   1   0   0   1   1   1   1 -
+KT326918.1           -          ProJap_M_57          -            2.8e-41  130.7   4.2   2.8e-41  130.7   4.2   2.5   1   1   1   2   2   1   1 -
+KY290448.1           -          ProJap_M_57          -              9e-41  129.0   3.4     9e-41  129.0   3.4   2.3   1   1   1   2   2   1   1 -
+KY290449.1           -          ProJap_M_57          -              9e-41  129.0   3.4     9e-41  129.0   3.4   2.3   1   1   1   2   2   1   1 -
+KY290450.1           -          ProJap_M_57          -              6e-39  123.1   6.2     6e-39  123.1   6.2   2.2   1   1   1   2   2   2   1 -
+MH349357.1           -          ProJap_M_57          -            6.5e-39  123.0   6.0   6.5e-39  123.0   6.0   2.7   1   1   0   2   2   1   1 -
+MH349358.1           -          ProJap_M_57          -            6.5e-39  123.0   6.0   6.5e-39  123.0   6.0   2.7   1   1   0   2   2   1   1 -
+KY021075.1           -          ProJap_M_57          -            1.3e-32  102.6   2.6   1.3e-32  102.6   2.6   2.4   1   1   1   2   2   1   1 -
+KY021073.1           -          ProJap_M_57          -            1.4e-32  102.5   2.7   1.4e-32  102.5   2.7   2.4   1   1   0   2   2   2   1 -
+KY021074.1           -          ProJap_M_57          -            1.4e-32  102.5   2.7   1.4e-32  102.5   2.7   2.4   1   1   0   2   2   2   1 -
+KF030962.1           -          ProJap_M_57          -            2.5e-32  101.7   1.0   2.5e-32  101.7   1.0   2.2   1   1   1   2   2   2   1 -
+KF030963.1           -          ProJap_M_57          -            3.3e-32  101.3   1.1   3.3e-32  101.3   1.1   2.2   1   1   1   2   2   2   1 -
+HM856635.1           -          ProJap_M_57          -              2e-26   82.6   6.1     2e-26   82.6   6.1   2.6   1   1   2   3   3   2   1 -
+KU873124.1           -          ProJap_M_57          -            3.5e-19   59.1   5.9   4.2e-19   58.9   5.9   1.1   1   0   0   1   1   1   1 -
+KU873122.1           -          ProJap_M_64          -            2.2e-19   59.8   4.9   2.2e-19   59.8   4.9   1.7   1   1   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      ProJap_M.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/MALE/ProJap_M_morf.tbl ProJap_M.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/morfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/MALE
+# Date:            Thu Apr  8 01:22:28 2021
+# [ok]

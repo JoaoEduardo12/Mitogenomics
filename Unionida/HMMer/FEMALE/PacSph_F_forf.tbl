@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF326971.1           -          PacSph_F_328         -            3.4e-37  117.9   9.9   3.8e-37  117.8   9.9   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          PacSph_F_328         -            3.5e-37  117.9  10.2   3.8e-37  117.8  10.2   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          PacSph_F_328         -            2.4e-35  112.0  10.6   2.7e-35  111.8  10.6   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          PacSph_F_328         -            2.1e-28   89.7   9.2   2.7e-28   89.4   9.2   1.1   1   0   0   1   1   1   1 -
+HQ283345.1           -          PacSph_F_328         -            2.1e-28   89.7   9.2   2.7e-28   89.4   9.2   1.1   1   0   0   1   1   1   1 -
+HQ283346.1           -          PacSph_F_328         -            2.1e-28   89.7   9.2   2.7e-28   89.4   9.2   1.1   1   0   0   1   1   1   1 -
+HQ283347.1           -          PacSph_F_328         -            2.1e-28   89.7   9.2   2.7e-28   89.4   9.2   1.1   1   0   0   1   1   1   1 -
+HQ283348.1           -          PacSph_F_328         -            2.1e-28   89.7   9.2   2.7e-28   89.4   9.2   1.1   1   0   0   1   1   1   1 -
+KM272949.1           -          PacSph_F_328         -            2.1e-28   89.7   9.2   2.7e-28   89.4   9.2   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          PacSph_F_328         -            8.2e-27   84.6   8.5     1e-26   84.3   8.5   1.2   1   0   0   1   1   1   1 -
+KY290446.1           -          PacSph_F_328         -            2.2e-26   83.3   5.2   2.7e-26   83.0   5.2   1.1   1   0   0   1   1   1   1 -
+KY290447.1           -          PacSph_F_328         -            2.2e-26   83.3   5.2   2.7e-26   83.0   5.2   1.1   1   0   0   1   1   1   1 -
+KY021078.1           -          PacSph_F_328         -            2.5e-26   83.1   6.5   3.1e-26   82.8   6.5   1.1   1   0   0   1   1   1   1 -
+KY021076.1           -          PacSph_F_328         -            3.9e-26   82.5   7.1   4.8e-26   82.2   7.1   1.1   1   0   0   1   1   1   1 -
+KY021077.1           -          PacSph_F_328         -            3.9e-26   82.5   7.1   4.8e-26   82.2   7.1   1.1   1   0   0   1   1   1   1 -
+KT326917.1           -          PacSph_F_328         -              3e-24   76.4   6.0   3.3e-24   76.3   6.0   1.0   1   0   0   1   1   1   1 -
+KF030964.1           -          PacSph_F_328         -            1.1e-23   74.6   7.0   1.2e-23   74.5   7.0   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          PacSph_F_328         -            1.1e-23   74.6   7.0   1.2e-23   74.5   7.0   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          PacSph_F_328         -            1.1e-23   74.6   7.0   1.2e-23   74.5   7.0   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          PacSph_F_328         -            1.1e-23   74.6   2.7   1.3e-23   74.3   2.7   1.1   1   0   0   1   1   1   1 -
+KF030966.1           -          PacSph_F_328         -            1.5e-23   74.2   6.7   1.6e-23   74.1   6.7   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          PacSph_F_328         -            1.7e-23   74.0   7.1   1.9e-23   73.9   7.1   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          PacSph_F_328         -              2e-23   73.7   8.6   2.4e-23   73.5   8.6   1.1   1   0   0   1   1   1   1 -
+KR873102.1           -          PacSph_F_328         -            1.2e-21   68.1   6.3   1.3e-21   68.0   6.3   1.0   1   0   0   1   1   1   1 -
+KC848654.1           -          PacSph_F_328         -            1.4e-19   61.4   4.1   1.7e-19   61.2   4.1   1.1   1   0   0   1   1   1   1 -
+HM856636.1           -          PacSph_F_328         -            3.5e-19   60.2   0.6   3.9e-19   60.0   0.6   1.0   1   0   0   1   1   1   1 -
+MH319826.1           -          PacSph_F_328         -            1.6e-16   51.7   7.2   2.1e-16   51.3   7.2   1.2   1   0   0   1   1   1   1 -
+KU873121.1           -          PacSph_F_328         -             0.0002   12.9  18.9    0.0027    9.3  18.9   2.0   1   1   0   1   1   1   0 -
+KU873123.1           -          PacSph_F_328         -              0.014    7.0  18.3      0.88    1.2  18.3   2.1   1   1   0   1   1   1   0 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      PacSph_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/PacSph_F_forf.tbl PacSph_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:04:56 2021
+# [ok]

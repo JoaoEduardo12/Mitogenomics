@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KT326917.1           -          ChaSpp_BIV5579_436   -            8.2e-15   45.4   6.6   1.7e-14   44.4   6.6   1.5   1   0   0   1   1   1   1 -
+KY290446.1           -          ChaSpp_BIV5579_436   -            1.1e-13   41.8   7.1   1.1e-13   41.8   7.1   1.7   2   0   0   2   2   2   1 -
+KY290447.1           -          ChaSpp_BIV5579_436   -            1.1e-13   41.8   7.1   1.1e-13   41.8   7.1   1.7   2   0   0   2   2   2   1 -
+KY021078.1           -          ChaSpp_BIV5579_436   -            8.8e-13   38.9   7.6   1.8e-12   37.9   7.6   1.6   1   0   0   1   1   1   1 -
+KY021076.1           -          ChaSpp_BIV5579_436   -            1.1e-12   38.6   8.0   2.3e-12   37.6   8.0   1.6   1   0   0   1   1   1   1 -
+KY021077.1           -          ChaSpp_BIV5579_436   -            1.1e-12   38.6   8.0   2.3e-12   37.6   8.0   1.6   1   0   0   1   1   1   1 -
+MF687348.1           -          ChaSpp_BIV5579_436   -            4.2e-12   36.7   3.6   7.1e-12   36.0   3.6   1.5   1   1   0   1   1   1   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      ChaSpp_F_BIV5579.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/ChaSpp_F_BIV5579_forf.tbl ChaSpp_F_BIV5579.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 00:50:47 2021
+# [ok]

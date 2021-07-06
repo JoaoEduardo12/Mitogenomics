@@ -1,0 +1,43 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MF326971.1           -          UniTet_F_304         -            5.4e-32  101.1   9.7   6.1e-32  100.9   9.7   1.0   1   0   0   1   1   1   1 -
+MW413895.1           -          UniTet_F_304         -            8.5e-30   94.1   9.9   9.6e-30   93.9   9.9   1.0   1   0   0   1   1   1   1 -
+KU559011.1           -          UniTet_F_304         -            2.8e-29   92.4   9.4   3.1e-29   92.3   9.4   1.0   1   0   0   1   1   1   1 -
+KF030966.1           -          UniTet_F_304         -            8.6e-28   87.6   6.8   9.6e-28   87.5   6.8   1.0   1   0   0   1   1   1   1 -
+KY021078.1           -          UniTet_F_304         -            9.8e-28   87.5   7.8   9.8e-28   87.5   7.8   1.2   1   1   0   1   1   1   1 -
+KF030964.1           -          UniTet_F_304         -              1e-27   87.4   7.0   1.2e-27   87.2   7.0   1.0   1   0   0   1   1   1   1 -
+KF030967.1           -          UniTet_F_304         -              1e-27   87.4   7.0   1.2e-27   87.2   7.0   1.0   1   0   0   1   1   1   1 -
+KF030968.1           -          UniTet_F_304         -              1e-27   87.4   7.0   1.2e-27   87.2   7.0   1.0   1   0   0   1   1   1   1 -
+KF030965.1           -          UniTet_F_304         -            1.4e-27   87.0   7.4   1.5e-27   86.8   7.4   1.0   1   0   0   1   1   1   1 -
+HQ283344.1           -          UniTet_F_304         -            3.3e-27   85.8  10.0   4.3e-27   85.4  10.0   1.1   1   0   0   1   1   1   1 -
+HQ283345.1           -          UniTet_F_304         -            3.3e-27   85.8  10.0   4.3e-27   85.4  10.0   1.1   1   0   0   1   1   1   1 -
+HQ283346.1           -          UniTet_F_304         -            3.3e-27   85.8  10.0   4.3e-27   85.4  10.0   1.1   1   0   0   1   1   1   1 -
+HQ283347.1           -          UniTet_F_304         -            3.3e-27   85.8  10.0   4.3e-27   85.4  10.0   1.1   1   0   0   1   1   1   1 -
+HQ283348.1           -          UniTet_F_304         -            3.3e-27   85.8  10.0   4.3e-27   85.4  10.0   1.1   1   0   0   1   1   1   1 -
+KM272949.1           -          UniTet_F_304         -            3.3e-27   85.8  10.0   4.3e-27   85.4  10.0   1.1   1   0   0   1   1   1   1 -
+KY021076.1           -          UniTet_F_304         -              6e-27   84.9   8.4     6e-27   84.9   8.4   1.2   1   1   0   1   1   1   1 -
+KY021077.1           -          UniTet_F_304         -              6e-27   84.9   8.4     6e-27   84.9   8.4   1.2   1   1   0   1   1   1   1 -
+KY290446.1           -          UniTet_F_304         -              1e-26   84.2   8.8   1.2e-26   84.0   8.8   1.2   1   0   0   1   1   1   1 -
+KY290447.1           -          UniTet_F_304         -              1e-26   84.2   8.8   1.2e-26   84.0   8.8   1.2   1   0   0   1   1   1   1 -
+KT326917.1           -          UniTet_F_304         -            4.6e-26   82.1   8.3   5.4e-26   81.9   8.3   1.0   1   0   0   1   1   1   1 -
+MF687348.1           -          UniTet_F_304         -            5.7e-25   78.6   3.7   6.5e-25   78.4   3.7   1.1   1   0   0   1   1   1   1 -
+MF326973.1           -          UniTet_F_304         -            5.8e-25   78.6   7.5   7.3e-25   78.3   7.5   1.1   1   0   0   1   1   1   1 -
+KR873102.1           -          UniTet_F_304         -            5.1e-24   75.5   7.5   5.8e-24   75.4   7.5   1.0   1   0   0   1   1   1   1 -
+MF687347.1           -          UniTet_F_304         -            5.6e-24   75.4  10.3   6.4e-24   75.2  10.3   1.1   1   0   0   1   1   1   1 -
+KC848654.1           -          UniTet_F_304         -            2.1e-21   67.2   4.9   2.5e-21   66.9   4.9   1.1   1   0   0   1   1   1   1 -
+HM856636.1           -          UniTet_F_304         -            2.5e-20   63.7   0.5   2.7e-20   63.6   0.5   1.0   1   0   0   1   1   1   1 -
+MH319826.1           -          UniTet_F_304         -            7.3e-18   55.8  10.4   9.7e-18   55.4  10.4   1.1   1   0   0   1   1   1   1 -
+KU873121.1           -          UniTet_F_304         -            1.2e-17   55.1  11.1   1.6e-17   54.7  11.1   1.2   1   0   0   1   1   1   1 -
+KU873123.1           -          UniTet_F_304         -             0.0013   10.2  18.1      0.16    3.5  18.1   2.2   1   1   0   1   1   1   0 -
+MF326973.1           -          UniTet_F_305         -            9.4e-21   64.6   1.5   9.4e-21   64.6   1.5   2.0   2   0   0   2   2   2   1 -
+#
+# Program:         jackhmmer
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      UniTet_F.faa
+# Target file:     /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa
+# Option settings: jackhmmer -N 10 --tblout /home/edu/Desktop/Bioinformatica/Unionida/HMMer/FEMALE/UniTet_F_forf.tbl UniTet_F.faa /home/edu/Desktop/Bioinformatica/Unionida/NCBI_ORFs/forfs.faa 
+# Current dir:     /home/edu/Desktop/Bioinformatica/Unionida/Predicted_ORFs/FEMALE
+# Date:            Thu Apr  8 01:16:31 2021
+# [ok]
