@@ -14,7 +14,7 @@ dataset <- read_csv("Chondrichthyes.csv")
 
 dataset = subset(dataset, dataset$State == "complete")
 
-codon_dataset <- read.csv("Chondrichthyes_codons.csv")
+codon_dataset <- read.csv("Chondrichthyes_codons_.csv")
 
 codon_dataset = subset(codon_dataset, codon_dataset$State == "complete")
 
@@ -56,7 +56,7 @@ PCG <- get_taxonomy_column(taxonomy_vector_3, PCG, 'Order')
 
 # clean up columns that don't matter
 
-PCG_clean <- PCG[-c(1:7)]
+PCG <- PCG[-c(1:2,4:7)]
 
 nrow(subset(PCG_clean, PCG_clean$Order == "Myliobatiformes"))
 nrow(subset(PCG_clean, PCG_clean$Order == "Rajiformes"))
@@ -292,3 +292,121 @@ rrfImp <- varImp(rrfMod, scale = T)
 
 rrfImp
 plot(rrfImp, top = 15, main='Variable Importance')
+
+
+
+## PCA with all data
+
+PCG_2 <- na.omit(PCG)
+nad5 <- na.omit(nad5)
+
+pca <- prcomp(nad5[-c(1,10:11,88)], scale. = TRUE)
+summary(pca)
+
+fviz_eig(pca)
+
+library(devtools)
+library(ggbiplot) 
+library(factoextra)
+
+
+p_pca <- fviz_pca_ind(pca,
+                         axes = c(1,2),
+                         col.ind =  factor(na.omit(nad5$Order), levels = c('Myliobatiformes','Rajiformes','Rhinopristiformes','Torpediniformes',
+                                                                                                'Carcharhiniformes','Lamniformes','Orectolobiformes','Heterodontiformes',
+                                                                                                'Hexanchiformes','Pristiophoriformes','Squaliformes','Squatiniformes',
+                                                                                                'Chimaeriformes')),
+                         label = "none",
+                         pointsize = 2.5,
+                         geom = "point",
+                         mean.point = FALSE,
+                         col.ind.sup = c("#f50000", "#cc0000", "#a30000","#4e1609",'#4f86f7','#45b1e8','#87ceeb','#30d5c8','#adff2f','#32cd32',
+                                         '#3cb371','#006400','#7b68ee'),
+                         repel = TRUE 
+)
+
+p_pca + scale_color_manual(name = "Order", values = c("#f50000", "#cc0000", "#a30000","#4e1609",'#4f86f7','#45b1e8','#87ceeb','#30d5c8','#adff2f','#32cd32',
+                                                         '#3cb371','#006400','#7b68ee')) + scale_shape_manual(values = c(rep(16, 13))) +
+    guides(fill = "none" , shape = "none") 
+
+fviz_pca_var(pca, col.var="steelblue")
+
+
+### Support Vector Machines
+
+library(e1071)
+library(caTools)
+
+# Splitting the data
+
+PCG_ML <- subset(PCG_ML, PCG_ML$Order != "Pristiophoriformes")
+PCG_ML[,109] <- PCG_ML[,85]
+PCG_ML$Order <- NULL
+PCG_ML[,109] <- PCG[,88]
+colnames(PCG_ML)[108] <- "Order"
+
+PCG_ML$Order <- as.factor(PCG_ML$Order)
+
+split = sample.split(PCG_ML$Order, SplitRatio = 0.8)
+training_set = subset(PCG_ML, split == TRUE)
+test_set = subset(PCG_ML, split == FALSE)
+
+#only PCG with RSCU data
+
+PCG_ML <- na.omit(PCG_ML)
+
+PCG_RSCU <- PCG_ML[-c(1:25,85:107)]
+PCG_woRSCU <- PCG_ML[-c(26:84)]
+
+split = sample.split(PCG_woRSCU$Order, SplitRatio = 0.8)
+training_set = subset(PCG_woRSCU, split == TRUE)
+test_set = subset(PCG_woRSCU, split == FALSE)
+
+# Feature scale!
+
+training_set[-c(26:49)] <- scale(training_set[-c(26:49)])
+test_set[-c(26:49)] <- scale(test_set[-c(26:49)])
+
+gammalist <- c(0.005,0.01,0.015,0.02,0.025,0.03,0.035,0.04,0.045,0.05)
+PCG_ML$StartATT <- NULL
+svmfit <- tune.svm(as.factor(Order) ~., data = training_set, type = "C-classification", kernel = "radial", cost = 2^(-1:5), gamma = gammalist, scale = FALSE)
+
+
+svmfit_poly <- tune.svm(as.factor(Order) ~., data = training_set, type = "C-classification", kernel = "polynomial", degree = 2, cost = 2^(-1:5), gamma = gammalist, scale = FALSE)
+
+
+
+
+
+
+summary(svmfit)
+summary(svmfit$best.model)
+
+test_set <- na.omit(test_set)
+svm <- predict(svmfit$best.model, na.omit(test_set[,1:48]))
+confusionMatrix(svm, as.factor(na.omit(test_set[,49])))
+
+svm3 <- predict(svmfit_poly$best.model, na.omit(test_set[,1:104]))
+confusionMatrix(svm3, as.factor(na.omit(test_set[1:547,105])))
+
+svm4 <- predict(svmfit$best.model, na.omit(test_set[,1:72]))
+confusionMatrix(svm4, as.factor(na.omit(test_set[,73])))
+
+svmfit_poly$train.ind
+
+## training with only RSCU data
+
+
+
+
+
+
+y_pred <- predict(svmfit, newdata = test_set[,1:107])
+
+dummy <- dummyVars(" ~ Content + Start + Stop", data=PCG)
+newdata <- data.frame(predict(dummy, newdata = PCG))
+
+PCG_ML <- as.data.frame(cbind(PCG, newdata))
+
+PCG_ML <- PCG_ML[-c(1,10:11)]
+cm = table(test_set$Order, y_pred)
