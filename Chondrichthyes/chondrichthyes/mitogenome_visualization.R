@@ -1,6 +1,6 @@
 
 #### Load dataset #####
-source("get_dataset.R")
+source("process_data.R")
 # This scripts imports the dataset but also performs some processing so hold tight!
 
 ##### GC skew vs AT skew #####
