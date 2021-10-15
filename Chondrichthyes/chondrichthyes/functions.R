@@ -4,6 +4,7 @@ get_taxonomy_column <- function(tax_vector, dataset, column) {
     # "dataset" is the dataset used to find taxonomic ranks
     # Given a vector of taxonomic ranks, it creates a new column in "dataset" with just
     # one specified taxonomic rank found in "tax_vector"
+  require(stringr)
     dataset[, column] <- ''
     for(row in 1:nrow(dataset)) {
         for (element in tax_vector) {  
@@ -76,18 +77,18 @@ get_nucleotide_weighted_mean <- function(dataset) {
     # uses tidyverse
     PCG_weighted_mean <- dataset %>%
         group_by(Accession) %>%
-        mutate(G1 = weighted.mean(`%G1`, Length)) %>%
-        mutate(C1 = weighted.mean(`%C1`, Length)) %>%
-        mutate(A1 = weighted.mean(`%A1`, Length)) %>%
-        mutate(T1 = weighted.mean(`%T1`, Length)) %>%
-        mutate(G2 = weighted.mean(`%G2`, Length)) %>%
-        mutate(C2 = weighted.mean(`%C2`, Length)) %>%
-        mutate(A2 = weighted.mean(`%A2`, Length)) %>%
-        mutate(T2 = weighted.mean(`%T2`, Length)) %>%
-        mutate(G3 = weighted.mean(`%G3`, Length)) %>%
-        mutate(C3 = weighted.mean(`%C3`, Length)) %>%
-        mutate(A3 = weighted.mean(`%A3`, Length)) %>%
-        mutate(T3 = weighted.mean(`%T3`, Length))
+        mutate(G1 = weighted.mean(`G1`, Length)) %>%
+        mutate(C1 = weighted.mean(`C1`, Length)) %>%
+        mutate(A1 = weighted.mean(`A1`, Length)) %>%
+        mutate(T1 = weighted.mean(`T1`, Length)) %>%
+        mutate(G2 = weighted.mean(`G2`, Length)) %>%
+        mutate(C2 = weighted.mean(`C2`, Length)) %>%
+        mutate(A2 = weighted.mean(`A2`, Length)) %>%
+        mutate(T2 = weighted.mean(`T2`, Length)) %>%
+        mutate(G3 = weighted.mean(`G3`, Length)) %>%
+        mutate(C3 = weighted.mean(`C3`, Length)) %>%
+        mutate(A3 = weighted.mean(`A3`, Length)) %>%
+        mutate(T3 = weighted.mean(`T3`, Length))
     PCG_weighted_mean
 }
 
@@ -109,23 +110,32 @@ get_nucleotide_frequencies <- function(column, dataset, my_function, tax) {
     nucleotide_vector
 }
 
-ggplotRegression <- function (fit) {
-    
+ggplotRegression <- function (fit, title) {
     require(ggplot2)
-    
     ggplot(fit$model, aes_string(x = names(fit$model)[2], y = names(fit$model)[1])) + 
         geom_point(col = "blue") +
         stat_smooth(method = "lm", col = "red") +
-        labs(title = paste("Adj R2 = ",signif(summary(fit)$adj.r.squared, 5),
-                           "Intercept =",signif(fit$coef[[1]],5 ),
-                           " Slope =",signif(fit$coef[[2]], 5),
-                           " P =",signif(summary(fit)$coef[2,4], 5)))
+        labs(title = paste(title, 
+                           " Slope =",signif(fit$coef[[2]], 5))) +
+        theme(text = element_text(size = 8)) +
+      ylim(c(0.375,1))
+}
+
+ggplotRegression2 <- function (fit) {
+  require(ggplot2)
+  ggplot(fit$model, aes_string(x = names(fit$model)[2], y = names(fit$model)[1])) + 
+    geom_point(col = "blue") +
+    stat_smooth(method = "lm", col = "red") +
+    labs(title = paste("Adj R2 = ",signif(summary(fit)$adj.r.squared, 5),
+                       "Intercept =",signif(fit$coef[[1]],5 ),
+                       " Slope =",signif(fit$coef[[2]], 5),
+                       " P =",signif(summary(fit)$coef[2,4], 5)))
 }
 
 get_mean_dnds <- function(gene_list, method) {
     final_vector <- c()
     for (gene in gene_list) {
-        temp <- read.csv(paste0("/home/edu/Desktop/Bioinformatica/Mitogenomics/Chondrichthyes/prev/KaKs/",gene,"/",gene, "_dnds.csv"))
+        temp <- read.csv(paste0("/home/edu/Desktop/Bioinformatica/Mitogenomics/Chondrichthyes/prev/KaKs/",gene,"_dnds.csv"))
         temp_2 <- temp[,-1]
         rownames(temp_2) <- temp[,1]
         temp_2 <- as.matrix(temp_2)
@@ -149,7 +159,7 @@ get_dnds_pergroup <- function(gene_list, method, look_up_table, group1, group2) 
             }
         }
         for (gene in gene_list) {
-            temp <- read.csv(paste0("/home/edu/Desktop/Bioinformatica/Mitogenomics/Chondrichthyes/prev/KaKs/",gene,"/",gene, "_dnds.csv"))
+            temp <- read.csv(paste0("/home/edu/Desktop/Bioinformatica/Mitogenomics/Chondrichthyes/prev/KaKs/",gene,"_dnds.csv"))
             temp_2 <- temp[,-1]
             rownames(temp_2) <- temp[,1]
             temp_2[temp_2 > 3] <- NA
@@ -229,7 +239,7 @@ plot_rscu <- function(codon_usage, name) {
         geom_text(aes(x = aminoacids, y = Col, label = codons), col = 'white', fontface = 'bold') +
         labs(x = "Aminoacids") +
         theme_void() +
-        theme(legend.position = 'none', text = element_text(size = 13),
+        theme(legend.position = 'none', text = element_text(size = 11),
               axis.text.x = element_text(angle = 0, hjust = 0.5),
               axis.title.y = element_blank()) +
         scale_x_discrete(labels = c('Ala','Cys','Asp','Glu','Phe','Gly','His','Lys','Leu','Met','Asn','Pro','Gln','Arg','Ser','Thr','Val','Trp','Tyr'))
@@ -256,13 +266,15 @@ pairwise_statistical_test <- function(group, column, test) {
 }
 
 
-plot_codon_heatmap <- function(dataset, palette, col_codes) {
+plot_codon_heatmap <- function(dataset, palette, col_codes, codon_codes, scale_value, title) {
     heatmap_rscu <- heatmap.2(x=t(as.matrix(dataset)),
                               trace = 'none',
-                              #scale = 'row',
+                              scale = scale_value,
                               ColSideColors = col_codes,
+                              RowSideColors = codon_codes,
                               distfun = function(x) dist(x, method="euclidean"),
                               hclustfun = function(x) hclust(x, method="average"),
+                              main = title,
                               key.title = '',
                               key.ylab = '',
                               key.xlab = '',
@@ -274,17 +286,70 @@ plot_codon_heatmap <- function(dataset, palette, col_codes) {
                               keysize = 1.5,
                               labCol = '',
                               key.par=list(),
-                              cexRow = 0.7)
+                              cexRow = 0.4)
     heatmap_rscu
 }
 
 
 make_gene_codondataset <- function(dataset, gene) {
-    new_dataset <- subset(dataset, dataset[["Gene"]] == gene)
+    new_dataset <- subset(dataset, dataset[["Content"]] == gene)
     new_dataset <- data.frame(new_dataset)
     rownames(new_dataset) <- new_dataset[,1]
-    new_dataset[["Upper_Rank"]] <- NULL
-    new_dataset[["Family"]] <- NULL
-    new_dataset[["Gene"]] <- NULL
+    #new_dataset[["Family"]] <- NULL
+    new_dataset[["Order"]] <- NULL
+    new_dataset[["Content"]] <- NULL
     new_dataset
+}
+
+get_gc_info_codons <- function(dataframe, column, new_column) {
+  cont = 0
+  dataframe[, new_column] <- ''
+  for (element in dataframe[[column]]) {
+    A_num <- 0
+    T_num <- 0
+    G_num <- 0
+    C_num <- 0
+    df <- data.frame()
+    cont = cont + 1
+    first_codon <- strsplit(element,"")[[1]][1]
+    second_codon <- strsplit(element,"")[[1]][2]
+    third_codon <- strsplit(element,"")[[1]][3]
+    df <- rbind(first_codon,second_codon,third_codon)
+    df <- data.frame(df)
+    for (i in 1:3) {
+      if (df[[1]][i] == "A") {
+        A_num = A_num + 1
+      } else if (df[[1]][i] == "T") {
+        T_num = T_num + 1
+      } else if (df[[1]][i] == "G") {
+        G_num = G_num + 1
+      } else if (df[[1]][i] == "C") {
+        C_num = C_num + 1
+      }
+    }
+    if (A_num + T_num >= 2) {
+      dataframe[cont, length(dataframe)] <- "AT"
+    } else {
+      dataframe[cont, length(dataframe)] <- "GC"
+    }
+  }
+  dataframe
+}
+
+
+check_missing_genes <- function(dataset) {
+  cont = 0
+  accession = dataset[1,2]
+  for (i in 1:nrow(dataset)) {
+    cont = cont + 1
+    new_accession = dataset[i,2]
+    if (new_accession != accession & cont < 13) {
+      print(accession)
+      cont = 0
+      accession = new_accession
+    } else if (new_accession != accession) {
+      cont = 0
+      accession = new_accession
+    }
+  }
 }
